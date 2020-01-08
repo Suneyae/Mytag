@@ -1,0 +1,13 @@
+.bannerbutton{
+	  position:absolute; 
+      height:40px;
+      z-index:9900002; 
+      width:100%;
+   }
+.topover{
+	color:white;
+}
+.bannerbody{
+  border-bottom:1px solid #62ABD9;
+ }
+ 

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-9-18 22:27:56 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.log.entity.User4" table="USER4">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="username" type="java.lang.String">
+            <column name="USERNAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="datetime" type="java.sql.Date">
+            <column name="DATETIME" />
+        </property>
+    </class>
+</hibernate-mapping>

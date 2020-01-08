@@ -1,0 +1,2264 @@
+[
+    {
+        "key": "04",
+        "text": "医保待遇",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "0405",
+                "text": "个人业务申报审批",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "040595",
+                        "text": "门特认定",
+                        "url": "/web/ybdy/web/spdj/mtjbrd!dj.do?RightID=040595&_menuID=040595&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "0470",
+                "text": "报销管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "047031",
+                        "text": "门特中心零星报销",
+                        "url": "/web/ybdy/web/bxgl/mtjbbx!lr.do?RightID=047031&_menuID=047031&funcID=null"
+                    },
+                    {
+                        "key": "047028",
+                        "text": "县级公立医院门诊疗费报销",
+                        "url": "/web/ybdy/web/bxgl/mzzlfbx!lr.do?RightID=047028&_menuID=047028&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "0468",
+                "text": "补充险报销",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "046818",
+                        "text": "医保中心补充险实时报销",
+                        "url": "/web/ybdy/web/bcxbx/bcxzxssbx.do?RightID=046818&_menuID=046818&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "0424",
+                "text": "定点医药机构行政管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "042401",
+                        "text": "定点医药机构资格申报受理",
+                        "url": "/web/ybdy/web/xzgl/yyjgzgsb!sl.do?RightID=042401&_menuID=042401&funcID=null"
+                    },
+                    {
+                        "key": "042426",
+                        "text": "医保科定点医药机构资料维护",
+                        "url": "/web/ybdy/web/yyjgxxwh/ybk_zlwh!lr.do?RightID=042426&_menuID=042426&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "0475",
+                "text": "单据补打",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "047513",
+                        "text": "县级公立医院门诊疗费报销查询补打",
+                        "url": "/web/yzdy/web/djbd/xjglyycxbd.do?RightID=047513&_menuID=047513&funcID=LXBX"
+                    }
+                ]
+            },
+            {
+                "key": "0495",
+                "text": "财务拨付",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "049501",
+                        "text": "城镇职工中心端零星报销拨付",
+                        "url": "/web/ybdy/web/cwbf/zxdlxbxbf.do?RightID=049501&_menuID=049501&funcID=null"
+                    },
+                    {
+                        "key": "049521",
+                        "text": "县级公立医院门诊疗费报销待支付数据",
+                        "url": "/web/ybdy/web/cwbf/xjglyymzylfbxbf.do?RightID=049521&_menuID=049521&funcID=null"
+                    },
+                    {
+                        "key": "049513",
+                        "text": "城乡居民中心端零星报销拨付",
+                        "url": "/web/ybdy/web/cwbf/czjmzxdlxbxbf.do?RightID=049513&_menuID=049513&funcID=null"
+                    },
+                    {
+                        "key": "049502",
+                        "text": "特殊人员零星报销划拨",
+                        "url": "/web/ybdy/web/cwbf/tsrylxbx.do?RightID=049502&_menuID=049502&funcID=null"
+                    },
+                    {
+                        "key": "049503",
+                        "text": "门诊大病零星报销划拨",
+                        "url": "/web/ybdy/web/cwbf/mzdblxbx.do?RightID=049503&_menuID=049503&funcID=null"
+                    },
+                    {
+                        "key": "049504",
+                        "text": "精神病住院零星报销划拨",
+                        "url": "/web/ybdy/web/cwbf/jsbzylxbx.do?RightID=049504&_menuID=049504&funcID=null"
+                    },
+                    {
+                        "key": "049505",
+                        "text": "癌症包干人员定期待遇划拨",
+                        "url": "/web/ybdy/web/cwbf/azbgrydqdyhb.do?RightID=049505&_menuID=049505&funcID=null"
+                    },
+                    {
+                        "key": "049506",
+                        "text": "18种特殊病年度待遇划拨",
+                        "url": "/web/ybdy/web/cwbf/tdmznddyhb!dj.do?RightID=049506&_menuID=049506&funcID=null"
+                    },
+                    {
+                        "key": "049509",
+                        "text": "个人账户一次性处理划拨",
+                        "url": "/web/ybdy/web/cwbf/grzhycxclhb.do?RightID=049509&_menuID=049509&funcID=null"
+                    },
+                    {
+                        "key": "049510",
+                        "text": "长期异地个人账户报销划拨",
+                        "url": "/web/ybdy/web/cwbf/cqydgrzhbxhb.do?RightID=049510&_menuID=049510&funcID=null"
+                    },
+                    {
+                        "key": "049511",
+                        "text": "精神病门诊零星报销划拨",
+                        "url": "/web/ybdy/web/cwbf/jsbmzlxbxhb.do?RightID=049511&_menuID=049511&funcID=null"
+                    },
+                    {
+                        "key": "049512",
+                        "text": "单病种报销划拨",
+                        "url": "/web/ybdy/web/cwbf/dbzbxhb.do?RightID=049512&_menuID=049512&funcID=null"
+                    },
+                    {
+                        "key": "049514",
+                        "text": "城乡居民门诊大病零星报销划拨",
+                        "url": "/web/ybdy/web/cwbf/czjmmzdblxbx.do?RightID=049514&_menuID=049514&funcID=null"
+                    },
+                    {
+                        "key": "049515",
+                        "text": "城镇居民门诊费用划拨",
+                        "url": "/web/ybdy/web/cwbf/czjmmzfyhb.do?RightID=049515&_menuID=049515&funcID=null"
+                    },
+                    {
+                        "key": "049517",
+                        "text": "公务员年度医疗补助划拨",
+                        "url": "/web/ybdy/web/cwbf/gwyndylbzhb.do?RightID=049517&_menuID=049517&funcID=null"
+                    },
+                    {
+                        "key": "049516",
+                        "text": "公务员二次报销划拨",
+                        "url": "/web/ybdy/web/cwbf/gwyecbxhb.do?RightID=049516&_menuID=049516&funcID=null"
+                    },
+                    {
+                        "key": "049519",
+                        "text": "建国前老干部住院划拨",
+                        "url": "/web/ybdy/web/cwbf/jgqlgbzyhb.do?RightID=049519&_menuID=049519&funcID=null"
+                    },
+                    {
+                        "key": "049520",
+                        "text": "特殊人员奖励年度划拨",
+                        "url": "/web/ybdy/web/cwbf/tsryjlndhb.do?RightID=049520&_menuID=049520&funcID=null"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "30",
+        "text": "公共业务",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "3010",
+                "text": "组织参保关系管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "301001",
+                        "text": "组织新参保登记",
+                        "url": "/web/bxgx/web/zzbg/zzxxdj/zzxxdj.do?RightID=301001&_menuID=301001&funcID=null"
+                    },
+                    {
+                        "key": "301025",
+                        "text": "组织重点信息变更",
+                        "url": "/web/bxgx/web/zzbg/zzzdxxbg/zzzdxxbg!lr.do?RightID=301025&_menuID=301025&funcID=null"
+                    },
+                    {
+                        "key": "301033",
+                        "text": "组织征集方式变更",
+                        "url": "/web/bxgx/web/zzbg/zzzjfsbg/zzzjfsbg!lr.do?RightID=301033&_menuID=301033&funcID=null"
+                    },
+                    {
+                        "key": "301017",
+                        "text": "社会保险登记证管理",
+                        "url": "/web/bxgx/web/zzbg/sbdjzff/sbdjzff.do?RightID=301017&_menuID=301017&funcID=null"
+                    },
+                    {
+                        "key": "301013",
+                        "text": "社会保险年度检验",
+                        "url": "/web/bxgx/web/zzbg/shbxnj/shbxnj!lr.do?RightID=301013&_menuID=301013&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3015",
+                "text": "人员参保关系管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "301501",
+                        "text": "增减员",
+                        "url": "/web/bxgx/web/rybg/zjy/zjy!lr.do?RightID=301501&_menuID=301501&funcID=null"
+                    },
+                    {
+                        "key": "301552",
+                        "text": "参保资料注销",
+                        "url": "/web/example/web/cbzlzx/cbzlzx!lr.do?RightID=301552&_menuID=301552&funcID=null"
+                    },
+                    {
+                        "key": "301567",
+                        "text": "参保资料注销备份",
+                        "url": "/web/example/web/cbzlzxcx/cbzlzxcx!lr.do?RightID=301567&_menuID=301567&funcID=null"
+                    },
+                    {
+                        "key": "301510",
+                        "text": "22批量人员合并资料生成",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!sc.do?RightID=301510&_menuID=301510&funcID=null"
+                    },
+                    {
+                        "key": "301511",
+                        "text": "22批量人员合并被合并人员所属区县审核",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!sh.do?RightID=301511&_menuID=301511&funcID=null"
+                    },
+                    {
+                        "key": "301512",
+                        "text": "批量人员合并导出到单位确认",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!qr.do?RightID=301512&_menuID=301512&funcID=null"
+                    },
+                    {
+                        "key": "301513",
+                        "text": "22批量人员合并合并处理",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!hb.do?RightID=301513&_menuID=301513&funcID=null"
+                    },
+                    {
+                        "key": "301514",
+                        "text": "批量人员合并查询",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!cx.do?RightID=301514&_menuID=301514&funcID=null"
+                    },
+                    {
+                        "key": "301515",
+                        "text": "15位身份证号码查询导出",
+                        "url": "/web/bxgx/web/rybg/sfzhmcl/sfzhmcl.do?RightID=301515&_menuID=301515&funcID=null"
+                    },
+                    {
+                        "key": "301519",
+                        "text": "22批量人员合并查询",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!cxn.do?RightID=301519&_menuID=301519&funcID=null"
+                    },
+                    {
+                        "key": "301520",
+                        "text": "22批量人员合并被合并人员资料打印",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!dyn.do?RightID=301520&_menuID=301520&funcID=null"
+                    },
+                    {
+                        "key": "301531",
+                        "text": "22批量人员合并导出到单位确认",
+                        "url": "/web/bxgx/web/rybg/plryhb/plryhb!qrn.do?RightID=301531&_menuID=301531&funcID=null"
+                    },
+                    {
+                        "key": "301549",
+                        "text": "人员重点信息变更",
+                        "url": "/web/bxgx/web/rybg/ryzdxxbg/ryzdxxbg!lr.do?RightID=301549&_menuID=301549&funcID=null"
+                    },
+                    {
+                        "key": "301525",
+                        "text": "跨区县人员合并",
+                        "url": "/web/bxgx/web/rybg/kqxryhb/kqxryhb!lr.do?RightID=301525&_menuID=301525&funcID=null"
+                    },
+                    {
+                        "key": "301533",
+                        "text": "参保历史维护（不含养老）",
+                        "url": "/web/bxgx/web/rybg/cblswh/cblswh.do?RightID=301533&_menuID=301533&funcID=null"
+                    },
+                    {
+                        "key": "301536",
+                        "text": "养老参保历史维护",
+                        "url": "/web/bxgx/web/rybg/ylcblswhyb/ylcblswhyb.do?RightID=301536&_menuID=301536&funcID=null"
+                    },
+                    {
+                        "key": "301578",
+                        "text": "在职转退休",
+                        "url": "/web/bxgx/web/rybg/zzhztx/zzhztx!lr.do?RightID=301578&_menuID=301578&funcID=null"
+                    },
+                    {
+                        "key": "301581",
+                        "text": "退保注销",
+                        "url": "/web/bxgx/web/rybg/tbzx/tbzx!lr.do?RightID=301581&_menuID=301581&funcID=null"
+                    },
+                    {
+                        "key": "301586",
+                        "text": "在职退保资料导入",
+                        "url": "/web/sxdy/web/yl/zztbzldr/zztbzldr.do?RightID=301586&_menuID=301586&funcID=null"
+                    },
+                    {
+                        "key": "301587",
+                        "text": "在职退保重新核定",
+                        "url": "/web/sxdy/web/yl/ycxyldycxhd/ycxyldycxhd.do?RightID=301587&_menuID=301587&funcID=null"
+                    },
+                    {
+                        "key": "301590",
+                        "text": "在职退保",
+                        "url": "/web/sxdy/web/yl/ycxyldyhd/ycxyldyhd.do?RightID=301590&_menuID=301590&funcID=null"
+                    },
+                    {
+                        "key": "301593",
+                        "text": "在职退保信息查询及维护",
+                        "url": "/web/sxdy/web/zhcx/ylycx/ylycxdycx.do?RightID=301593&_menuID=301593&funcID=YLDY"
+                    },
+                    {
+                        "key": "301594",
+                        "text": "在职退保单据打印",
+                        "url": "/web/sxdy/web/zhcx/ylycx/ylycxdydjdy.do?RightID=301594&_menuID=301594&funcID=YLDY"
+                    },
+                    {
+                        "key": "301595",
+                        "text": "在职退保业务回退",
+                        "url": "/web/sxdy/web/comm/ywht/ywht.do?RightID=301595&_menuID=301595&funcID=sxdy01,B"
+                    },
+                    {
+                        "key": "301596",
+                        "text": "在职转退休查询及回退",
+                        "url": "/web/bxgx/web/ggywcx/zzztxcx/zzztxcx.do?RightID=301596&_menuID=301596&funcID=null"
+                    },
+                    {
+                        "key": "301572",
+                        "text": "居保人员重新导入",
+                        "url": "/web/bxgx/web/ggywcx/jbrycxdy/jbrycxdy.do?RightID=301572&_menuID=301572&funcID=null"
+                    },
+                    {
+                        "key": "301597",
+                        "text": "个人编号转换",
+                        "url": "/web/bxgx/web/ggywcx/grbhzh/grbhzh.do?RightID=301597&_menuID=301597&funcID=null"
+                    },
+                    {
+                        "key": "301571",
+                        "text": "人员调动",
+                        "url": "/web/bxgx/web/rybg/rydd/rydd.do?RightID=301571&_menuID=301571&funcID=null"
+                    },
+                    {
+                        "key": "301599",
+                        "text": "退役军人管理",
+                        "url": "/web/bxgx/web/rybg/tyjrgl/tyjrgl.do?RightID=301599&_menuID=301599&funcID=null"
+                    },
+                    {
+                        "key": "301508",
+                        "text": "城乡居保变更",
+                        "url": "/web/bxgx/web/rybg/cxjbgl/cxjbbg.do?RightID=301508&_menuID=301508&funcID=null"
+                    },
+                    {
+                        "key": "301516",
+                        "text": "跨区县身份证修改",
+                        "url": "/web/bxgx/web/rybg/sfzxg/sfzxg.do?RightID=301516&_menuID=301516&funcID=null"
+                    },
+                    {
+                        "key": "301524",
+                        "text": "跨区县身份证修改查询",
+                        "url": "/web/bxgx/web/rybg/sfzxg/sfzxg!cx.do?RightID=301524&_menuID=301524&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3020",
+                "text": "缴费工资申报与变更",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "302001",
+                        "text": "缴费工资申报与变更",
+                        "url": "/web/bxgx/web/gzbg/ndjfgzsb/ndjfgzsb!lr.do?RightID=302001&_menuID=302001&funcID=null"
+                    },
+                    {
+                        "key": "302004",
+                        "text": "缴费基数调整",
+                        "url": "/web/bxgx/web/gzbg/jfjstz/jfjstz!lr.do?RightID=302004&_menuID=302004&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3030",
+                "text": "账户管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "303020",
+                        "text": "养老帐户年度计息与结转",
+                        "url": "/web/bxgx/web/zhgl/ylzhndjxyjz/ylzhndjxyjz.do?RightID=303020&_menuID=303020&funcID=null"
+                    },
+                    {
+                        "key": "303023",
+                        "text": "补充养老记账",
+                        "url": "/web/bxgx/web/zhgl/bcyljz/bcyl.do?RightID=303023&_menuID=303023&funcID=3030"
+                    }
+                ]
+            },
+            {
+                "key": "3047",
+                "text": "数据导入与导出管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "304700",
+                        "text": "单位年度稽核申报",
+                        "url": "/web/bxgx/web/sjdcdrgl/dwndjhsb/dwndjhsb!lr.do?RightID=304700&_menuID=304700&funcID=null"
+                    },
+                    {
+                        "key": "304701",
+                        "text": "工资申报与变更导入",
+                        "url": "/web/bxgx/web/sjdcdrgl/gzsbybgdr/gzsbybgdr.do?RightID=304701&_menuID=304701&funcID=null"
+                    },
+                    {
+                        "key": "304710",
+                        "text": "工资申报与变更导出",
+                        "url": "/web/bxgx/web/sjdcdrgl/gzsbybgdc/gzsbybgdc.do?RightID=304710&_menuID=304710&funcID=null"
+                    },
+                    {
+                        "key": "304712",
+                        "text": "批量增减员导入",
+                        "url": "/web/bxgx/web/sjdcdrgl/plzjy/zjydr!lr.do?RightID=304712&_menuID=304712&funcID=null"
+                    },
+                    {
+                        "key": "304715",
+                        "text": "批量增减员导出",
+                        "url": "/web/bxgx/web/sjdcdrgl/plzjy/zjydc!lr.do?RightID=304715&_menuID=304715&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3050",
+                "text": "公共业务查询",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "305001",
+                        "text": "组织基本资料查询",
+                        "url": "/web/bxgx/web/ggywcx/zzzlcx/zzzlcx!query.do?RightID=305001&_menuID=305001&funcID=null"
+                    },
+                    {
+                        "key": "305002",
+                        "text": "人员基本资料查询",
+                        "url": "/web/bxgx/web/ggywcx/ryzlcx/ryzlcx.do?RightID=305002&_menuID=305002&funcID=null"
+                    },
+                    {
+                        "key": "305003",
+                        "text": "工伤收支费率查询",
+                        "url": "/web/bxgx/web/ggywcx/gsszflcx/gsszflcx.do?RightID=305003&_menuID=305003&funcID=null"
+                    },
+                    {
+                        "key": "305005",
+                        "text": "参保情况记录表",
+                        "url": "/web/bxgx/web/ggywcx/ryzlcx/ryzlcx!toCbqkjlb.do?RightID=305005&_menuID=305005&funcID=null"
+                    },
+                    {
+                        "key": "305009",
+                        "text": "组织台账查询",
+                        "url": "/web/bxgx/web/ggywcx/dwtzcx/dwtzcx.do?RightID=305009&_menuID=305009&funcID=null"
+                    },
+                    {
+                        "key": "305013",
+                        "text": "业务单据补打",
+                        "url": "/web/bxgx/web/ywdjdy/hdzx/hdzx.do?RightID=305013&_menuID=305013&funcID=null"
+                    },
+                    {
+                        "key": "305037",
+                        "text": "人员基本资料社区查询",
+                        "url": "/web/bxgx/web/ggywcx/ryzlsqcx/ryzlsqcx.do?RightID=305037&_menuID=305037&funcID=null"
+                    },
+                    {
+                        "key": "305050",
+                        "text": "单位参保人员险种差异化查询",
+                        "url": "/web/bxgx/web/ggywcx/dwcbryxzcyhcx/dwcbryxzcyhcx.do?RightID=305050&_menuID=305050&funcID=null"
+                    },
+                    {
+                        "key": "305060",
+                        "text": "社会保险登记证打印",
+                        "url": "/web/bxgx/web/ggywcx/shbxdjzdy/shbxdjzdy.do?RightID=305060&_menuID=305060&funcID=null"
+                    },
+                    {
+                        "key": "305038",
+                        "text": "参保历史维护记录查询",
+                        "url": "/web/bxgx/web/ggywcx/cblswhjlcx/cblswhjlcx!toInput.do?RightID=305038&_menuID=305038&funcID=null"
+                    },
+                    {
+                        "key": "305032",
+                        "text": "社会保险参保情况查询",
+                        "url": "/web/bxgx/web/ggywcx/shbxcbqkcx/shbxcbqkcx.do?RightID=305032&_menuID=305032&funcID=null"
+                    },
+                    {
+                        "key": "305033",
+                        "text": "人员资料及工资变更查询",
+                        "url": "/web/bxgx/web/ggywcx/ywbgcx/ywbgcx.do?RightID=305033&_menuID=305033&funcID=null"
+                    },
+                    {
+                        "key": "305034",
+                        "text": "应缴明细查询",
+                        "url": "/web/bxgx/web/ggywcx/yjmxcs/yjmxcs!toInput.do?RightID=305034&_menuID=305034&funcID=null"
+                    },
+                    {
+                        "key": "305035",
+                        "text": "实缴明细查询",
+                        "url": "/web/bxgx/web/ggywcx/sjmxcx/sjmxcx!toInput.do?RightID=305035&_menuID=305035&funcID=null"
+                    },
+                    {
+                        "key": "305039",
+                        "text": "单位工资申报查询",
+                        "url": "/web/jjzjgl/web/jjzjcx/dwgzsbcx/dwgzsbcx!lr.do?RightID=305039&_menuID=305039&funcID=null"
+                    },
+                    {
+                        "key": "305036",
+                        "text": "养老保险记载查询",
+                        "url": "/web/bxgx/web/ggywcx/ylbxjzcx/ylbxjzcx.do?RightID=305036&_menuID=305036&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3055",
+                "text": "关系支付数据管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "305535",
+                        "text": "一次性支付业务汇总",
+                        "url": "/web/bxgx/web/gxcwjk/zfhzbdy/zfhzbdy.do?RightID=305535&_menuID=305535&funcID=3055"
+                    },
+                    {
+                        "key": "305539",
+                        "text": "一次性支付支付汇总",
+                        "url": "/web/comm/web/yfgl/yfglzfhz.do?RightID=305539&_menuID=305539&funcID=3055"
+                    }
+                ]
+            },
+            {
+                "key": "3080",
+                "text": "业务统计报表",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "308001",
+                        "text": "应缴社会保险费清单",
+                        "url": "/web/bxgx/web/ywtjbb/yjshbxfqd/yjshbxfqd.do?RightID=308001&_menuID=308001&funcID=null"
+                    },
+                    {
+                        "key": "308002",
+                        "text": "实缴社会保险费清单",
+                        "url": "/web/bxgx/web/ywtjbb/sjshbxfqd/sjshbxfqd.do?RightID=308002&_menuID=308002&funcID=null"
+                    },
+                    {
+                        "key": "308003",
+                        "text": "台账明细",
+                        "url": "/web/bxgx/web/ywtjbb/tzmx/tzmx.do?RightID=308003&_menuID=308003&funcID=null"
+                    },
+                    {
+                        "key": "308005",
+                        "text": "人员名册",
+                        "url": "/web/bxgx/web/ywtjbb/rymc/rymc.do?RightID=308005&_menuID=308005&funcID=null"
+                    },
+                    {
+                        "key": "308007",
+                        "text": "业务统计报表",
+                        "url": "/web/bxgx/web/ywtjbb/ywtjbb/ywtjbb.do?RightID=308007&_menuID=308007&funcID=BXGX"
+                    },
+                    {
+                        "key": "308018",
+                        "text": "参加（险种）保险缴费情况表",
+                        "url": "/web/bxgx/web/ywtjbb/cbjfqkb/cbjfqkb.do?RightID=308018&_menuID=308018&funcID=BXGX"
+                    },
+                    {
+                        "key": "308019",
+                        "text": "享受工伤保险待遇人数统计表一",
+                        "url": "/web/bxgx/web/ywtjbb/cbjfqkb/gszhtjb1.do?RightID=308019&_menuID=308019&funcID=308019"
+                    },
+                    {
+                        "key": "308020",
+                        "text": "享受工伤保险伤残和工亡待遇情况统计表二",
+                        "url": "/web/bxgx/web/ywtjbb/cbjfqkb/gszhtjb2.do?RightID=308020&_menuID=308020&funcID=308020"
+                    },
+                    {
+                        "key": "308021",
+                        "text": "工伤保险医疗及康复费用情况表三",
+                        "url": "/web/bxgx/web/ywtjbb/cbjfqkb/gszhtjb3.do?RightID=308021&_menuID=308021&funcID=308021"
+                    },
+                    {
+                        "key": "308022",
+                        "text": "生育保险待遇统计情况表(一)",
+                        "url": "/web/bxgx/web/ywtjbb/cbjfqkb/syuzftjb.do?RightID=308022&_menuID=308022&funcID=308022"
+                    }
+                ]
+            },
+            {
+                "key": "3086",
+                "text": "社会保保险卡管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "308601",
+                        "text": "社会保险卡登记与挂失",
+                        "url": "/web/bxgx/web/shbxkgl/shbxkgl.do?RightID=308601&_menuID=308601&funcID=3086"
+                    }
+                ]
+            },
+            {
+                "key": "3087",
+                "text": "综合业务支付数据管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "308701",
+                        "text": "综合业务支付汇总",
+                        "url": "/web/bxgx/web/zhywzfsjgl/zhywzfhz.do?RightID=308701&_menuID=308701&funcID=3087"
+                    },
+                    {
+                        "key": "308702",
+                        "text": "综合业务支付汇总(医疗)",
+                        "url": "/web/bxgx/web/zhywzfsjgl/zhywzfhzyil.do?RightID=308702&_menuID=308702&funcID=3087"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "34",
+        "text": "基层平台",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "3410",
+                "text": "个体参保",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "341010",
+                        "text": "增员",
+                        "url": "/web/bxgx/web/jcpt/jcptzjy!lr.do?RightID=341010&_menuID=341010&funcID=null"
+                    },
+                    {
+                        "key": "341020",
+                        "text": "应缴核定",
+                        "url": "/web/bxgx/web/jcpt/jcptjf!lr.do?RightID=341020&_menuID=341020&funcID=null"
+                    },
+                    {
+                        "key": "341030",
+                        "text": "MIPOS缴费",
+                        "url": "/web/bxgx/web/jcpt/jcptdz!lr.do?RightID=341030&_menuID=341030&funcID=null"
+                    },
+                    {
+                        "key": "341040",
+                        "text": "征集通知单查询",
+                        "url": "/web/bxgx/web/jcpt/jcptbj!lr.do?RightID=341040&_menuID=341040&funcID=null"
+                    },
+                    {
+                        "key": "341050",
+                        "text": "人员资料变更",
+                        "url": "/web/bxgx/web/jcpt/jcptrybg!zlgblr.do?RightID=341050&_menuID=341050&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3420",
+                "text": "城乡居民医疗保险综合业务",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "342010",
+                        "text": "家庭信息管理",
+                        "url": "/web/bxgx/web/jcpt/jcptpub!b1_step10.do?RightID=342010&_menuID=342010&funcID=null"
+                    },
+                    {
+                        "key": "342019",
+                        "text": "城乡居民医保缴费信息查询",
+                        "url": "/web/bxgx/web/jcpt/jcptjtxxcx!lr.do?RightID=342019&_menuID=342019&funcID=null"
+                    },
+                    {
+                        "key": "342022",
+                        "text": "家庭信息管理_家庭注销",
+                        "url": "/web/bxgx/web/jcpt/jcptpub!b1_step10.do?RightID=342022&_menuID=342022&funcID=null"
+                    },
+                    {
+                        "key": "342015",
+                        "text": "缴费申报单打印及取消",
+                        "url": "/web/bxgx/web/jcpt/jcptzddy!lr.do?RightID=342015&_menuID=342015&funcID=null"
+                    },
+                    {
+                        "key": "342013",
+                        "text": "农村批量报盘增员缴费导入导出",
+                        "url": "/web/bxgx/web/jcpt/jcptpldb!jcpt_pldp.do?RightID=342013&_menuID=342013&funcID=null"
+                    },
+                    {
+                        "key": "342017",
+                        "text": "家庭人员信息新增及维护",
+                        "url": "/web/bxgx/web/jcpt/jcptjtcyxxwf!jcpt_cyxxwh.do?RightID=342017&_menuID=342017&funcID=null"
+                    },
+                    {
+                        "key": "342014",
+                        "text": "缴费申报核定",
+                        "url": "/web/bxgx/web/jcpt/gtyjhd!jcpt_jfsb_lr.do?RightID=342014&_menuID=342014&funcID=null"
+                    },
+                    {
+                        "key": "342024",
+                        "text": "(新)农村批量报盘增员缴费导入导出",
+                        "url": "/web/bxgx/web/jcpt/jcptpldbnew!jcpt_pldp.do?RightID=342024&_menuID=342024&funcID=null"
+                    },
+                    {
+                        "key": "342016",
+                        "text": "零缴费征集单到账确认",
+                        "url": "/web/bxgx/web/jcpt/gtsjcl!jcpt_jfdzqr_lr.do?RightID=342016&_menuID=342016&funcID=342016"
+                    },
+                    {
+                        "key": "342028",
+                        "text": "建卡贫困户年中参保到账处理",
+                        "url": "/web/bxgx/web/jcpt/gtsjcl!jkpkhdz.do?RightID=342028&_menuID=342028&funcID=342028"
+                    },
+                    {
+                        "key": "342029",
+                        "text": "建卡贫困户年中参保到账查询",
+                        "url": "/web/bxgx/web/jcpt/gtsjcl!jkpkhdzcx.do?RightID=342029&_menuID=342029&funcID=342029"
+                    },
+                    {
+                        "key": "342020",
+                        "text": "到账回执确认",
+                        "url": "/web/bxgx/web/jcpt/gtsjcl!jcpt_jfdzqr_lr.do?RightID=342020&_menuID=342020&funcID=342020"
+                    },
+                    {
+                        "key": "342026",
+                        "text": "到账回执确认(中心端)",
+                        "url": "/web/bxgx/web/jcpt/dzhzqrzxd!lr.do?RightID=342026&_menuID=342026&funcID=342026"
+                    },
+                    {
+                        "key": "342021",
+                        "text": "个人门诊消费密码设置",
+                        "url": "/web/bxgx/web/jcpt/rymmgz.do?RightID=342021&_menuID=342021&funcID=null"
+                    },
+                    {
+                        "key": "342023",
+                        "text": "银行回执失败确认",
+                        "url": "/web/bxgx/web/jcpt/jmybyhbsz.do?RightID=342023&_menuID=342023&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3421",
+                "text": "触摸屏打印查询",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "342101",
+                        "text": "触摸屏养老打印查询",
+                        "url": "/web/bxgx/web/jcpt/cmpdy.do?RightID=342101&_menuID=342101&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3460",
+                "text": "失业保险金核定(基层平台)",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "346001",
+                        "text": "失业保险金核定(基层平台)",
+                        "url": "/web/bxgx/web/jcpt/syedy/syedyhd/syedyhdsb.do?RightID=346001&_menuID=346001&funcID=SXDY04"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "99",
+        "text": "系统管理",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "9990",
+                "text": "项目管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "999011",
+                        "text": "任务计划统计",
+                        "url": "/web/sysmngr/web/xmgl/xmgl!rwjhtj.do?RightID=999011&_menuID=999011&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "9907",
+                "text": "运维平台",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "990701",
+                        "text": "问题反馈录入",
+                        "url": "/web/sysmngr/web/wtfk/wtfk!lr.do?RightID=990701&_menuID=990701&funcID=null"
+                    },
+                    {
+                        "key": "990705",
+                        "text": "问题反馈审核",
+                        "url": "/web/sysmngr/web/wtfk/wtfk!sh.do?RightID=990705&_menuID=990705&funcID=null"
+                    },
+                    {
+                        "key": "990710",
+                        "text": "问题反馈处理",
+                        "url": "/web/sysmngr/web/wtfk/wtfk!update.do?RightID=990710&_menuID=990710&funcID=null"
+                    },
+                    {
+                        "key": "990715",
+                        "text": "问题反馈查询",
+                        "url": "/web/sysmngr/web/wtfk/wtfk!query.do?RightID=990715&_menuID=990715&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "9908",
+                "text": "知识库",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "990801",
+                        "text": "知识库录入及维护",
+                        "url": "/web/sysmngr/web/zsk/zsk!lr.do?RightID=990801&_menuID=990801&funcID=null"
+                    },
+                    {
+                        "key": "990802",
+                        "text": "知识库查询",
+                        "url": "/web/sysmngr/web/zsk/zsk!cx.do?RightID=990802&_menuID=990802&funcID=null"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "11",
+        "text": "保险关系转移",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "1103",
+                "text": "转移收入管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110301",
+                        "text": "转入基金登记",
+                        "url": "/web/bxgxzy/web/zysrgl/zrjjdj/zrjjdj.do?RightID=110301&_menuID=110301&funcID=null"
+                    },
+                    {
+                        "key": "110302",
+                        "text": "转入基金到账确认",
+                        "url": "/web/bxgxzy/web/zysrgl/zrjjdzqr/zrjjdzqr.do?RightID=110302&_menuID=110302&funcID=null"
+                    },
+                    {
+                        "key": "110303",
+                        "text": "转入基金分配",
+                        "url": "/web/bxgxzy/web/zysrgl/zrjjfp/zrjjfp.do?RightID=110303&_menuID=110303&funcID=null"
+                    },
+                    {
+                        "key": "110304",
+                        "text": "养老账户转入补贴",
+                        "url": "/web/bxgxzy/web/zysrgl/ylzhzrbt/ylzhzrbt!lr.do?RightID=110304&_menuID=110304&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1104",
+                "text": "养老保险市外转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110401",
+                        "text": "参保凭证打印",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxcbpzdy/ylbxcbpzdy!lr.do?RightID=110401&_menuID=110401&funcID=null"
+                    },
+                    {
+                        "key": "110420",
+                        "text": "建立临时缴费账户通知书打印",
+                        "url": "/web/bxgxzy/web/ylbxkszy/zllsjfzhtzsdy/zllsjfzhtzsdy!lr.do?RightID=110420&_menuID=110420&funcID=null"
+                    },
+                    {
+                        "key": "110413",
+                        "text": "养老关系转移查询",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxzycx/ylbxzycx.do?RightID=110413&_menuID=110413&funcID=null"
+                    },
+                    {
+                        "key": "110415",
+                        "text": "养老关系转出回退",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxzcht/ylbxzcht.do?RightID=110415&_menuID=110415&funcID=null"
+                    },
+                    {
+                        "key": "110414",
+                        "text": "企业养老转移接口报文导出",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxzycx/qyylzyjkbwdc.do?RightID=110414&_menuID=110414&funcID=null"
+                    },
+                    {
+                        "key": "110416",
+                        "text": "参保凭证打印查询",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxcbpzdycx/ylbxcbpzdycx!lr.do?RightID=110416&_menuID=110416&funcID=null"
+                    },
+                    {
+                        "key": "110417",
+                        "text": "转移联系函打印查询",
+                        "url": "/web/bxgxzy/web/ylbxkszy/zylxhdycx/zylxhdycx!lr.do?RightID=110417&_menuID=110417&funcID=null"
+                    },
+                    {
+                        "key": "110404",
+                        "text": "转移联系函打印",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxzylxhdy/ylbxzylxhdy!lr.do?RightID=110404&_menuID=110404&funcID=null"
+                    },
+                    {
+                        "key": "110407",
+                        "text": "市外转入",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxswzr/ylbxswzr!lr.do?RightID=110407&_menuID=110407&funcID=null"
+                    },
+                    {
+                        "key": "110410",
+                        "text": "转出市外",
+                        "url": "/web/bxgxzy/web/ylbxkszy/ylbxzcsw/ylbxzcsw!lr.do?RightID=110410&_menuID=110410&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1106",
+                "text": "失业保险市外转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110607",
+                        "text": "失业保险转出",
+                        "url": "/web/bxgxzy/web/syebxkszy/syebxcbzmdy/syebxcbzmdy!lr.do?RightID=110607&_menuID=110607&funcID=null"
+                    },
+                    {
+                        "key": "110608",
+                        "text": "失业保险转入",
+                        "url": "/web/bxgxzy/web/syebxkszy/syebxzr/syebxzr!lr.do?RightID=110608&_menuID=110608&funcID=null"
+                    },
+                    {
+                        "key": "110609",
+                        "text": "失业保险转移查询",
+                        "url": "/web/bxgxzy/web/syebxkszy/syebxzycx/syebxzycx!lr.do?RightID=110609&_menuID=110609&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1105",
+                "text": "医疗保险关系跨市转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110501",
+                        "text": "关系转移接续申请",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/gxzyjxsq/gxzyjxsq!lr.do?RightID=110501&_menuID=110501&funcID=null"
+                    },
+                    {
+                        "key": "110504",
+                        "text": "转移联系函打印",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/zylxhdy/zylxhdy!lr.do?RightID=110504&_menuID=110504&funcID=null"
+                    },
+                    {
+                        "key": "110507",
+                        "text": "医保关系转出",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/ybgxzc/ybgxzc!lr.do?RightID=110507&_menuID=110507&funcID=null"
+                    },
+                    {
+                        "key": "110510",
+                        "text": "医保关系转入",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/ybgxzr/ybgxzr!lr.do?RightID=110510&_menuID=110510&funcID=null"
+                    },
+                    {
+                        "key": "110513",
+                        "text": "医保关系转移申请查询",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/ybgxzysqcx/ybgxzysqcx.do?RightID=110513&_menuID=110513&funcID=null"
+                    },
+                    {
+                        "key": "110514",
+                        "text": "医保关系转移查询",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/ybgxzycx/ybgxzycx.do?RightID=110514&_menuID=110514&funcID=null"
+                    },
+                    {
+                        "key": "110521",
+                        "text": "医保关系转出回退",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/ybgxzcht/ybgxzcht.do?RightID=110521&_menuID=110521&funcID=null"
+                    },
+                    {
+                        "key": "110515",
+                        "text": "参保凭证打印(有接收单位)",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/cbpzdy/cbpzdy!lr.do?RightID=110515&_menuID=110515&funcID=null"
+                    },
+                    {
+                        "key": "110518",
+                        "text": "参保凭证打印(无接收单位)",
+                        "url": "/web/bxgxzy/web/yilbxgxkszy/cbpzsc/cbpzsc!lr.do?RightID=110518&_menuID=110518&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1107",
+                "text": "转移统计查询",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110701",
+                        "text": "关系转移查询",
+                        "url": "/web/bxgxzy/web/zytjcx/zytjcx!lr.do?RightID=110701&_menuID=110701&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1108",
+                "text": "城乡居民养老保险关系转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "110801",
+                        "text": "城乡居民养老保险关系转移接续申请",
+                        "url": "/web/bxgxzy/web/cxjmylbxgxzy/cxjmgxzyjxsq/cxjmgxzyjxsq!lr.do?RightID=110801&_menuID=110801&funcID=null"
+                    },
+                    {
+                        "key": "110802",
+                        "text": "转移联系函打印",
+                        "url": "/web/bxgxzy/web/cxjmylbxgxzy/cxjmylbxzylxhdy/cxjmylbxzylxhdy!lr.do?RightID=110802&_menuID=110802&funcID=null"
+                    },
+                    {
+                        "key": "110805",
+                        "text": "关系转入",
+                        "url": "/web/bxgxzy/web/cxjmylbxgxzy/cxjmylbxgxzr/cxjmylbxgxzr!lr.do?RightID=110805&_menuID=110805&funcID=null"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "10",
+        "text": "基金征缴管理",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "1009",
+                "text": "单位征缴管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "100945",
+                        "text": "单位计划批量生成",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwjhplsc/dwjhplsc.do?RightID=100945&_menuID=100945&funcID=null"
+                    },
+                    {
+                        "key": "100902",
+                        "text": "单位台账单独生成",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzddsc/dwtzddsc.do?RightID=100902&_menuID=100902&funcID=null"
+                    },
+                    {
+                        "key": "100951",
+                        "text": "单位台账单独生成(新)",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzddscnew/dwtzddsc.do?RightID=100951&_menuID=100951&funcID=null"
+                    },
+                    {
+                        "key": "100903",
+                        "text": "取消单位当月台账",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzqx/dwtzqx.do?RightID=100903&_menuID=100903&funcID=null"
+                    },
+                    {
+                        "key": "100934",
+                        "text": "月社会保险费申报表打印",
+                        "url": "/web/jjzjgl/web/zzjzgl/yshbxfsbbdy/yshbxfsbbdy.do?RightID=100934&_menuID=100934&funcID=null"
+                    },
+                    {
+                        "key": "100922",
+                        "text": "取消单位补收台账",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwbsjhqx/dwbsjhqx.do?RightID=100922&_menuID=100922&funcID=null"
+                    },
+                    {
+                        "key": "100911",
+                        "text": "单位调整性补/退",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzxbt/dwtzxbt.do?RightID=100911&_menuID=100911&funcID=null"
+                    },
+                    {
+                        "key": "100940",
+                        "text": "单位调整性补退查询及取消",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzxbtcx/dwtzxbtcx.do?RightID=100940&_menuID=100940&funcID=null"
+                    },
+                    {
+                        "key": "100905",
+                        "text": "单位征集计划生成及打印",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwzjjhscjdy/dwzjjhscjdy.do?RightID=100905&_menuID=100905&funcID=null"
+                    },
+                    {
+                        "key": "100946",
+                        "text": "批量_单位征集计划生成及打印",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwzjjhscjdypl/dwzjjhscjdypl.do?RightID=100946&_menuID=100946&funcID=null"
+                    },
+                    {
+                        "key": "100919",
+                        "text": "单位征收计划查询",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwzsjhcx/dwzsjhcx.do?RightID=100919&_menuID=100919&funcID=null"
+                    },
+                    {
+                        "key": "100938",
+                        "text": "单位计划预览",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwjhyl/dwjhyl.do?RightID=100938&_menuID=100938&funcID=null"
+                    },
+                    {
+                        "key": "100921",
+                        "text": "单位欠款补缴",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwqkbj/dwqkbj.do?RightID=100921&_menuID=100921&funcID=null"
+                    },
+                    {
+                        "key": "100937",
+                        "text": "财务到账报盘导出",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzbpdc/cwdzbpdc!lr.do?RightID=100937&_menuID=100937&funcID=null"
+                    },
+                    {
+                        "key": "100906",
+                        "text": "财务到账录入",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzlr/cwdzlr!lr.do?RightID=100906&_menuID=100906&funcID=null"
+                    },
+                    {
+                        "key": "100933",
+                        "text": "财务到账报盘导入",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzbp/cwdzbp!lr.do?RightID=100933&_menuID=100933&funcID=null"
+                    },
+                    {
+                        "key": "100931",
+                        "text": "财务到账信息维护",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzwh/cwdzwh!lr.do?RightID=100931&_menuID=100931&funcID=null"
+                    },
+                    {
+                        "key": "100939",
+                        "text": "财务到账冲减",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzcj/cwdzcj!lr.do?RightID=100939&_menuID=100939&funcID=null"
+                    },
+                    {
+                        "key": "100944",
+                        "text": "财务到账_改制金收入",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzgzjsr/cwdzgzjsr!lr.do?RightID=100944&_menuID=100944&funcID=null"
+                    },
+                    {
+                        "key": "100941",
+                        "text": "财务到账录入_其他收入",
+                        "url": "/web/jjzjgl/web/zzjzgl/cwdzlrqtsr/cwdzlrqtsr!lr.do?RightID=100941&_menuID=100941&funcID=null"
+                    },
+                    {
+                        "key": "100909",
+                        "text": "征缴分账-单位财务到账分解",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwzjfz/dwzjfz.do?RightID=100909&_menuID=100909&funcID=null"
+                    },
+                    {
+                        "key": "100910",
+                        "text": "征缴分账-单位待转余额分解",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwdzyefz/dwdzyefz.do?RightID=100910&_menuID=100910&funcID=null"
+                    },
+                    {
+                        "key": "100932",
+                        "text": "单位待转金调整",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwdzjtz/dwdzjtz!lr.do?RightID=100932&_menuID=100932&funcID=null"
+                    },
+                    {
+                        "key": "100912",
+                        "text": "收款账户对照",
+                        "url": "/web/jjzjgl/web/zzjzgl/skzhdz/skzhdz!lr.do?RightID=100912&_menuID=100912&funcID=null"
+                    },
+                    {
+                        "key": "100914",
+                        "text": "银行小额借记导出",
+                        "url": "/web/jjzjgl/web/zzjzgl/yhxejjdc/yhxejjdc!lr.do?RightID=100914&_menuID=100914&funcID=null"
+                    },
+                    {
+                        "key": "100915",
+                        "text": "银行小额借记导入",
+                        "url": "/web/jjzjgl/web/zzjzgl/yhxejjdr/yhxejjdr!lr.do?RightID=100915&_menuID=100915&funcID=null"
+                    },
+                    {
+                        "key": "100918",
+                        "text": "单位实收处理",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwsscl/dwsscl.do?RightID=100918&_menuID=100918&funcID=null"
+                    },
+                    {
+                        "key": "100917",
+                        "text": "联合缴费单位维护",
+                        "url": "/web/jjzjgl/web/zzjzgl/lhjfdwwh/lhjfdwwh.do?RightID=100917&_menuID=100917&funcID=null"
+                    },
+                    {
+                        "key": "100926",
+                        "text": "单位欠款核销",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwqkhx/dwqkhx!lr.do?RightID=100926&_menuID=100926&funcID=null"
+                    },
+                    {
+                        "key": "100929",
+                        "text": "单位历史欠款登记",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwlsqkdj/dwlsqkdj!lr.do?RightID=100929&_menuID=100929&funcID=null"
+                    },
+                    {
+                        "key": "100930",
+                        "text": "单位历史欠款冲减",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwlsqkcj/dwlsqkcj!lr.do?RightID=100930&_menuID=100930&funcID=null"
+                    },
+                    {
+                        "key": "100943",
+                        "text": "银行代收对帐处理",
+                        "url": "/web/jjzjgl/web/zzjzgl/yhdsdzcldw/yhdsdzcldw.do?RightID=100943&_menuID=100943&funcID=null"
+                    },
+                    {
+                        "key": "100947",
+                        "text": "困难企业居保报盘导入",
+                        "url": "/web/jjzjgl/web/xxzjgl/dwjbbpdr/dwjbbpdr!lr.do?RightID=100947&_menuID=100947&funcID=null"
+                    },
+                    {
+                        "key": "100948",
+                        "text": "困难企业居保报盘回执确认",
+                        "url": "/web/jjzjgl/web/xxzjgl/dwbphzqr/dwbphzqr!lr.do?RightID=100948&_menuID=100948&funcID=null"
+                    },
+                    {
+                        "key": "100935",
+                        "text": "单位台账单独生成_按险种",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzddscxz/dwtzddscxz.do?RightID=100935&_menuID=100935&funcID=null"
+                    },
+                    {
+                        "key": "100936",
+                        "text": "取消单位计划_按险种",
+                        "url": "/web/jjzjgl/web/zzjzgl/dwtzqxxz/dwtzqxxz.do?RightID=100936&_menuID=100936&funcID=null"
+                    },
+                    {
+                        "key": "100923",
+                        "text": "单位缓缴",
+                        "url": "/web/bxgx/web/tzbg/dwhj/dwhj!lr.do?RightID=100923&_menuID=100923&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1023",
+                "text": "基金征集查询",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102308",
+                        "text": "社银平台对账",
+                        "url": "/web/jjzjgl/web/zzjzgl/sypt/sydz.do?RightID=102308&_menuID=102308&funcID=null"
+                    },
+                    {
+                        "key": "102302",
+                        "text": "银行代扣信息查询",
+                        "url": "/web/jjzjgl/web/jjzjcx/gtryjf/yhdkxxcx.do?RightID=102302&_menuID=102302&funcID=null"
+                    },
+                    {
+                        "key": "102301",
+                        "text": "征集通知单补打及查询",
+                        "url": "/web/jjzjgl/web/jjzjcx/zjtzcx/zjtzcx!lr.do?RightID=102301&_menuID=102301&funcID=null"
+                    },
+                    {
+                        "key": "102304",
+                        "text": "利息滞纳金取消",
+                        "url": "/web/jjzjgl/web/jjzjcx/lxznjqx/lxznjqx!lr.do?RightID=102304&_menuID=102304&funcID=null"
+                    },
+                    {
+                        "key": "102305",
+                        "text": "分账查询",
+                        "url": "/web/bxgx/web/ggywcx/fzcx/fzcx.do?RightID=102305&_menuID=102305&funcID=null"
+                    },
+                    {
+                        "key": "102306",
+                        "text": "单位历史欠款查询",
+                        "url": "/web/jjzjgl/web/jjzjcx/dwlsqkcx/dwlsqkcx!lr.do?RightID=102306&_menuID=102306&funcID=null"
+                    },
+                    {
+                        "key": "102307",
+                        "text": "单位欠费查询",
+                        "url": "/web/bxgx/web/ggywcx/dwqfcx/dwqfcx.do?RightID=102307&_menuID=102307&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1025",
+                "text": "失地居民征集管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102501",
+                        "text": "失地居民居保报盘",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmjbbp/sdjmjbbp!lr.do?RightID=102501&_menuID=102501&funcID=null"
+                    },
+                    {
+                        "key": "102502",
+                        "text": "居保报盘回执确认",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/jbbphzqr/jbbphzqr!lr.do?RightID=102502&_menuID=102502&funcID=null"
+                    },
+                    {
+                        "key": "102523",
+                        "text": "失地居民缴费信息查询",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmjfcxhz/sdnmjfcxhz!lr.do?RightID=102523&_menuID=102523&funcID=null"
+                    },
+                    {
+                        "key": "102506",
+                        "text": "失地农民一次性参保缴费申报导盘",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/zdbmycxcbjfsbdp/zdbmycxcbjfsbdp!dp.do?RightID=102506&_menuID=102506&funcID=null"
+                    },
+                    {
+                        "key": "102507",
+                        "text": "失地农民一次性导盘缴费申报复核",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/zdbmycxcbjfsbdp/zdbmycxcbjfsbdp!fh.do?RightID=102507&_menuID=102507&funcID=null"
+                    },
+                    {
+                        "key": "102508",
+                        "text": "失地农民一次性导盘缴费到账",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/zdbmycxcbjfsbdp/zdbmycxcbjfsbdp!dz.do?RightID=102508&_menuID=102508&funcID=null"
+                    },
+                    {
+                        "key": "102505",
+                        "text": "失地农民一次性导盘缴费到账查询",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/bpphdzcx/bpphdzcx.do?RightID=102505&_menuID=102505&funcID=null"
+                    },
+                    {
+                        "key": "102509",
+                        "text": "失地农民零星一次性趸缴",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ycxdj/sdjmycxdj!lr.do?RightID=102509&_menuID=102509&funcID=null"
+                    },
+                    {
+                        "key": "102510",
+                        "text": "失地农民一次性趸缴复核",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ycxdj/sdjmycxdj!fh.do?RightID=102510&_menuID=102510&funcID=null"
+                    },
+                    {
+                        "key": "102511",
+                        "text": "失地农民一次性趸缴到账",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ycxdj/sdjmycxdj!dz.do?RightID=102511&_menuID=102511&funcID=null"
+                    },
+                    {
+                        "key": "102512",
+                        "text": "失地农民零星缴费核定",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ndlxjf/sdnmlxjfhd.do?RightID=102512&_menuID=102512&funcID=null"
+                    },
+                    {
+                        "key": "102513",
+                        "text": "失地农民零星缴费到账",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ndlxjf/sdnmlxjfdz.do?RightID=102513&_menuID=102513&funcID=null"
+                    },
+                    {
+                        "key": "102524",
+                        "text": "失地居民养老信息维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ylcbxxwh/sdjmylcbxxwh.do?RightID=102524&_menuID=102524&funcID=null"
+                    },
+                    {
+                        "key": "102525",
+                        "text": "失地农民一次性趸缴调整性补收",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmycxdjtzxbs/sdjmycxdjtzxbs.do?RightID=102525&_menuID=102525&funcID=null"
+                    },
+                    {
+                        "key": "102530",
+                        "text": "失地农民一次性趸缴调整性补收到账",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmycxdjtzxbs/sdjmycxdjtzxbs!dzcl.do?RightID=102530&_menuID=102530&funcID=null"
+                    },
+                    {
+                        "key": "102518",
+                        "text": "一次性趸缴信息维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/ycxdjxxwh/sdjmycxdjxxwh.do?RightID=102518&_menuID=102518&funcID=null"
+                    },
+                    {
+                        "key": "102521",
+                        "text": "失地居民政府补贴维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmzfbtwh/sdnmzfbtwh!lr.do?RightID=102521&_menuID=102521&funcID=null"
+                    },
+                    {
+                        "key": "102522",
+                        "text": "失地农民一次性导盘批号查询",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/bpphcx/bpphcx.do?RightID=102522&_menuID=102522&funcID=null"
+                    },
+                    {
+                        "key": "102527",
+                        "text": "失地农民批量报盘电子台账汇总表",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmplbpdzhzb/sdnmplbpdzhzb.do?RightID=102527&_menuID=102527&funcID=null"
+                    },
+                    {
+                        "key": "102526",
+                        "text": "失地农民一次性趸缴退收处理",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmycxjftkcl/sdjmycxjftkcl.do?RightID=102526&_menuID=102526&funcID=null"
+                    },
+                    {
+                        "key": "102529",
+                        "text": "一次性趸缴退款查询及维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmycxdjtkcxjwh/sdjmycxdjtkcxjwh.do?RightID=102529&_menuID=102529&funcID=null"
+                    },
+                    {
+                        "key": "102528",
+                        "text": "失地农民人员信息维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdjmxxwh/sdjmxxwh.do?RightID=102528&_menuID=102528&funcID=null"
+                    },
+                    {
+                        "key": "102533",
+                        "text": "失地农民失业保险趸交申报导盘",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsybxdp/sdnmsybxdp!dp.do?RightID=102533&_menuID=102533&funcID=null"
+                    },
+                    {
+                        "key": "102534",
+                        "text": "失地农民失业保险趸交申报复核",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsybxdp/sdnmsybxdp!fh.do?RightID=102534&_menuID=102534&funcID=null"
+                    },
+                    {
+                        "key": "102535",
+                        "text": "失地农民失业保险缴费到账",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsybxdp/sdnmsybxdp!dz.do?RightID=102535&_menuID=102535&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1027",
+                "text": "征地农转非人员数据清理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102737",
+                        "text": "征地农转非人员数据清理统计汇总",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqltjhz.do?RightID=102737&_menuID=102737&funcID=null"
+                    },
+                    {
+                        "key": "102738",
+                        "text": "征地农转非人员数据清理结果查询",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqljgcx.do?RightID=102738&_menuID=102738&funcID=null"
+                    },
+                    {
+                        "key": "102739",
+                        "text": "征地农转非人员数据清理参保数据维护",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqlsjwh.do?RightID=102739&_menuID=102739&funcID=null"
+                    },
+                    {
+                        "key": "102740",
+                        "text": "征地农转非人员数据清理报盘",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqlbp.do?RightID=102740&_menuID=102740&funcID=null"
+                    },
+                    {
+                        "key": "102743",
+                        "text": "征集农转非数据清理成功结果查询",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqljgcx!cg.do?RightID=102743&_menuID=102743&funcID=null"
+                    },
+                    {
+                        "key": "102744",
+                        "text": "征地农转非人员批量导入",
+                        "url": "/web/jjzjgl/web/sdjmzjgl/sdnmsjql/sdnmsjqlpldr.do?RightID=102744&_menuID=102744&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1030",
+                "text": "158号文养老补缴",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "103001",
+                        "text": "单位补缴登记",
+                        "url": "/web/jjzjgl/web/ylbj/dwbjdj.do?RightID=103001&_menuID=103001&funcID=null"
+                    },
+                    {
+                        "key": "103002",
+                        "text": "个人补缴登记",
+                        "url": "/web/jjzjgl/web/ylbj/grbjdj.do?RightID=103002&_menuID=103002&funcID=null"
+                    },
+                    {
+                        "key": "103003",
+                        "text": "补缴申报审核",
+                        "url": "/web/jjzjgl/web/ylbj/bjsbsh.do?RightID=103003&_menuID=103003&funcID=null"
+                    },
+                    {
+                        "key": "103008",
+                        "text": "缴费工资申报表",
+                        "url": "/web/jjzjgl/web/ylbj/jfgzsbb.do?RightID=103008&_menuID=103008&funcID=null"
+                    },
+                    {
+                        "key": "103004",
+                        "text": "征集通知单查询打印取消",
+                        "url": "/web/jjzjgl/web/ylbj/zjtzdcxdy.do?RightID=103004&_menuID=103004&funcID=null"
+                    },
+                    {
+                        "key": "103005",
+                        "text": "到账确认",
+                        "url": "/web/jjzjgl/web/ylbj/dzqr.do?RightID=103005&_menuID=103005&funcID=null"
+                    },
+                    {
+                        "key": "103007",
+                        "text": "生成征集通知单",
+                        "url": "/web/jjzjgl/web/ylbj/zjtzdsc.do?RightID=103007&_menuID=103007&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1031",
+                "text": "银行对账管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "103101",
+                        "text": "MIPOS对账",
+                        "url": "/web/jjzjgl/web/zzjzgl/yhzdgl/miposdz.do?RightID=103101&_menuID=103101&funcID=null"
+                    },
+                    {
+                        "key": "103102",
+                        "text": "MIPOS对账测试",
+                        "url": "/web/jjzjgl/web/zzjzgl/yhzdgl/miposdz!test.do?RightID=103102&_menuID=103102&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1013",
+                "text": "居民医保缴费统计",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "101304",
+                        "text": "参保明细数据查询",
+                        "url": "/web/jjzjgl/web/jmjftj/cbmxsjcx/cbmxsjcx.do?RightID=101304&_menuID=101304&funcID=null"
+                    },
+                    {
+                        "key": "101301",
+                        "text": "参保缴费信息表",
+                        "url": "/web/jjzjgl/web/jmjftj/cbjfxxb/cbjfxxb!lr.do?RightID=101301&_menuID=101301&funcID=null"
+                    },
+                    {
+                        "key": "101302",
+                        "text": "缴费到账信息实时查询",
+                        "url": "/web/jjzjgl/web/jmjftj/jfdzxxcx/jfdzxxcx!lr.do?RightID=101302&_menuID=101302&funcID=null"
+                    },
+                    {
+                        "key": "101303",
+                        "text": "已申报未回执信息查询",
+                        "url": "/web/jjzjgl/web/jmjftj/ysbwzhzxxcx/ysbwzhzxxcx!lr.do?RightID=101303&_menuID=101303&funcID=null"
+                    },
+                    {
+                        "key": "101305",
+                        "text": "参保缴费信息表_社保局",
+                        "url": "/web/jjzjgl/web/jmjftj/sbjcbjfxxb/sbjcbjfxxb!lr.do?RightID=101305&_menuID=101305&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1021",
+                "text": "征集信息管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102101",
+                        "text": "银行信息维护",
+                        "url": "/web/bxgx/web/gxcwjk/zjxxgl/yhxxwh/yhxxwh!lr.do?RightID=102101&_menuID=102101&funcID=null"
+                    },
+                    {
+                        "key": "102102",
+                        "text": "账户信息维护",
+                        "url": "/web/bxgx/web/gxcwjk/zjxxgl/zhxxwh/zhxxwh!lr.do?RightID=102102&_menuID=102102&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1010",
+                "text": "个体人员缴费",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "101019",
+                        "text": "天保工程医保计划生成",
+                        "url": "/web/jjzjgl/web/gtryjf/tbgcybjhsc/tbgcybjhsc!lr.do?RightID=101019&_menuID=101019&funcID=null"
+                    },
+                    {
+                        "key": "101001",
+                        "text": "银行代扣申报",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdksb/yhdksb!lr.do?RightID=101001&_menuID=101001&funcID=null"
+                    },
+                    {
+                        "key": "101004",
+                        "text": "银行代扣申报维护",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdksbwh/yhdksbwh!lr.do?RightID=101004&_menuID=101004&funcID=null"
+                    },
+                    {
+                        "key": "101005",
+                        "text": "个体应缴核定",
+                        "url": "/web/jjzjgl/web/gtryjf/gtyjhd/gtyjhd!lr.do?RightID=101005&_menuID=101005&funcID=null"
+                    },
+                    {
+                        "key": "101023",
+                        "text": "个体应缴核定_新",
+                        "url": "/web/jjzjgl/web/gtryjf/gtyjhd/gtyjhd!lr_new.do?RightID=101023&_menuID=101023&funcID=null"
+                    },
+                    {
+                        "key": "101018",
+                        "text": "个体应缴核定（失业）",
+                        "url": "/web/jjzjgl/web/gtryjf/sygtyjhd/sygtyjhd!lr.do?RightID=101018&_menuID=101018&funcID=null"
+                    },
+                    {
+                        "key": "101006",
+                        "text": "征集通知单打印及取消",
+                        "url": "/web/jjzjgl/web/gtryjf/zjtzddy/zjtzddy!lr.do?RightID=101006&_menuID=101006&funcID=null"
+                    },
+                    {
+                        "key": "101007",
+                        "text": "个体到账处理",
+                        "url": "/web/jjzjgl/web/gtryjf/gtdzcl/gtdzcl!lr.do?RightID=101007&_menuID=101007&funcID=null"
+                    },
+                    {
+                        "key": "101012",
+                        "text": "银行代扣取消",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdkqx/yhdkqx!lr.do?RightID=101012&_menuID=101012&funcID=null"
+                    },
+                    {
+                        "key": "101013",
+                        "text": "银行代扣补收核定",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdkbshd/yhdkbshd!lr.do?RightID=101013&_menuID=101013&funcID=null"
+                    },
+                    {
+                        "key": "101014",
+                        "text": "银行代扣核定、报盘",
+                        "url": "/web/jjzjgl/web/gtryjf/scyhbpwj/scyhbpwj!lr.do?RightID=101014&_menuID=101014&funcID=null"
+                    },
+                    {
+                        "key": "101015",
+                        "text": "接受银行代扣回盘文件",
+                        "url": "/web/jjzjgl/web/gtryjf/jsyhhpwj/jsyhhpwj!lr.do?RightID=101015&_menuID=101015&funcID=null"
+                    },
+                    {
+                        "key": "101016",
+                        "text": "银行代扣实收处理",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdksscl/yhdksscl!lr.do?RightID=101016&_menuID=101016&funcID=null"
+                    },
+                    {
+                        "key": "101022",
+                        "text": "银行代扣查询打印",
+                        "url": "/web/jjzjgl/web/gtryjf/yhdkcxdy/yhdkcxdy.do?RightID=101022&_menuID=101022&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1020",
+                "text": "发票管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102001",
+                        "text": "发票打印",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fpdy/fpdy.do?RightID=102001&_menuID=102001&funcID=null"
+                    },
+                    {
+                        "key": "102002",
+                        "text": "发票重新打印",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fpcxdy/fpcxdy.do?RightID=102002&_menuID=102002&funcID=null"
+                    },
+                    {
+                        "key": "102003",
+                        "text": "发票领取",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fplq/fplq.do?RightID=102003&_menuID=102003&funcID=null"
+                    },
+                    {
+                        "key": "102005",
+                        "text": "发票汇总",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fphz/fphz.do?RightID=102005&_menuID=102005&funcID=null"
+                    },
+                    {
+                        "key": "102006",
+                        "text": "发票统计查询",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fptjcx/fptjcx.do?RightID=102006&_menuID=102006&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1015",
+                "text": "特殊人员缴费",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "101507",
+                        "text": "医保协议清算缴费",
+                        "url": "/web/jjzjgl/web/tsryjf/ybxyqsjf/ybxyqsjf.do?RightID=101507&_menuID=101507&funcID=null"
+                    },
+                    {
+                        "key": "101501",
+                        "text": "医保清算缴费",
+                        "url": "/web/jjzjgl/web/tsryjf/yilycxqs/yilycxqs!lr.do?RightID=101501&_menuID=101501&funcID=null"
+                    },
+                    {
+                        "key": "101502",
+                        "text": "医保清算缴费复核",
+                        "url": "/web/jjzjgl/web/tsryjf/yilycxqsfh/yilycxqsfh!lr.do?RightID=101502&_menuID=101502&funcID=null"
+                    },
+                    {
+                        "key": "101503",
+                        "text": "医保清算缴费打印",
+                        "url": "/web/jjzjgl/web/tsryjf/yilycxqsdy/yilycxqsdy!lr.do?RightID=101503&_menuID=101503&funcID=null"
+                    },
+                    {
+                        "key": "101504",
+                        "text": "医保清算缴费到账处理",
+                        "url": "/web/jjzjgl/web/tsryjf/yilycxqsdzcl/yilycxqsdzcl!lr.do?RightID=101504&_menuID=101504&funcID=null"
+                    },
+                    {
+                        "key": "101505",
+                        "text": "清算人员医保上账",
+                        "url": "/web/jjzjgl/web/tsryjf/qsryybsz/qsryybsz!lr.do?RightID=101505&_menuID=101505&funcID=null"
+                    },
+                    {
+                        "key": "101508",
+                        "text": "医保清算信息查询",
+                        "url": "/web/jjzjgl/web/tsryjf/yilycxqs/yilycxqs!cx.do?RightID=101508&_menuID=101508&funcID=null"
+                    },
+                    {
+                        "key": "101509",
+                        "text": "清算人员个人账户计划零星生成",
+                        "url": "/web/jjzjgl/web/tsryjf/qsrygrzhjhlxsc/qsrygrzhjhlxsc.do?RightID=101509&_menuID=101509&funcID=null"
+                    },
+                    {
+                        "key": "101510",
+                        "text": "清算人员医保月个人账户零星上账",
+                        "url": "/web/jjzjgl/web/tsryjf/qsryybygrzhlxsz/qsryybygrzhlxsz.do?RightID=101510&_menuID=101510&funcID=null"
+                    },
+                    {
+                        "key": "101512",
+                        "text": "清算人员个人账户计划取消",
+                        "url": "/web/jjzjgl/web/tsryjf/qsrygrzhjhlxscqx/qsrygrzhjhlxscqx.do?RightID=101512&_menuID=101512&funcID=null"
+                    },
+                    {
+                        "key": "101506",
+                        "text": "医保年度险种计划生成",
+                        "url": "/web/jjzjgl/web/tsryjf/ybxzndjhsc/ybxzndjhsc!lr.do?RightID=101506&_menuID=101506&funcID=null"
+                    },
+                    {
+                        "key": "101513",
+                        "text": "清算计划调整性补差",
+                        "url": "/web/jjzjgl/web/tsryjf/qsjhtzxbc/qsjhtzxbc.do?RightID=101513&_menuID=101513&funcID=null"
+                    },
+                    {
+                        "key": "101514",
+                        "text": "清算人员调整性补差查询",
+                        "url": "/web/jjzjgl/web/tsryjf/qsjhtzxbcqx/qsjhtzxbcqx.do?RightID=101514&_menuID=101514&funcID=null"
+                    },
+                    {
+                        "key": "101515",
+                        "text": "清算人员调整性补差上账",
+                        "url": "/web/jjzjgl/web/tsryjf/qsjhtzxbcsz/qsjhtzxbcsz.do?RightID=101515&_menuID=101515&funcID=null"
+                    },
+                    {
+                        "key": "101516",
+                        "text": "补充医保账户缴纳",
+                        "url": "/web/jjzjgl/web/tsryjf/bcybzhjn/bcybzhjn.do?RightID=101516&_menuID=101516&funcID=null"
+                    },
+                    {
+                        "key": "101517",
+                        "text": "补充医保账户缴纳查询",
+                        "url": "/web/jjzjgl/web/tsryjf/bcybzhjncx/bcybzhjncx.do?RightID=101517&_menuID=101517&funcID=null"
+                    },
+                    {
+                        "key": "101518",
+                        "text": "补充医疗0.5%缴费查询",
+                        "url": "/web/jjzjgl/web/tsryjf/bcybtz/bcybtz!lr.do?RightID=101518&_menuID=101518&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1026",
+                "text": "发票管理_银行代收",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102601",
+                        "text": "发票打印_银行代收",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpglyhds/fpdyyhds/fpdyyhds.do?RightID=102601&_menuID=102601&funcID=null"
+                    },
+                    {
+                        "key": "102602",
+                        "text": "发票重新打印_银行代收",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpglyhds/fpcxdyyhds/fpcxdyyhds.do?RightID=102602&_menuID=102602&funcID=null"
+                    },
+                    {
+                        "key": "102603",
+                        "text": "发票领取_银行代收",
+                        "url": "/web/jjzjgl/web/zzjzgl/fpgl/fplq/fplq.do?RightID=102603&_menuID=102603&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1012",
+                "text": "个人征缴管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "101220",
+                        "text": "个人历年工资维护",
+                        "url": "/web/jjzjgl/web/grzjgl/grlngzwh/grlngzwh!lr.do?RightID=101220&_menuID=101220&funcID=null"
+                    },
+                    {
+                        "key": "101226",
+                        "text": "个人应缴计划作废",
+                        "url": "/web/jjzjgl/web/grzjgl/grqkhx/grqkhx!lr.do?RightID=101226&_menuID=101226&funcID=null"
+                    },
+                    {
+                        "key": "101229",
+                        "text": "企业养老个人补缴",
+                        "url": "/web/jjzjgl/web/grzjgl/grbj/grbj!lr.do?RightID=101229&_menuID=101229&funcID=null"
+                    },
+                    {
+                        "key": "101232",
+                        "text": "个人补收",
+                        "url": "/web/jjzjgl/web/grzjgl/grbsyb/grbsyb!lr.do?RightID=101232&_menuID=101232&funcID=null"
+                    },
+                    {
+                        "key": "101235",
+                        "text": "个人调整性补收",
+                        "url": "/web/jjzjgl/web/grzjgl/grtzxbsyb/grtzxbsyb!lr.do?RightID=101235&_menuID=101235&funcID=null"
+                    },
+                    {
+                        "key": "101251",
+                        "text": "个人业务批量到账导入",
+                        "url": "/web/jjzjgl/web/grzjgl/grywpldz/grywpldz!lr.do?RightID=101251&_menuID=101251&funcID=null"
+                    },
+                    {
+                        "key": "101252",
+                        "text": "个人业务批量到账导出",
+                        "url": "/web/jjzjgl/web/grzjgl/grywpldzdc/grywpldzdc!lr.do?RightID=101252&_menuID=101252&funcID=null"
+                    },
+                    {
+                        "key": "101253",
+                        "text": "养老退休一次性趸交",
+                        "url": "/web/jjzjgl/web/grzjgl/yltxycxdj/yltxycxdj!lr.do?RightID=101253&_menuID=101253&funcID=null"
+                    },
+                    {
+                        "key": "101254",
+                        "text": "养老退休一次性趸交调整性补收",
+                        "url": "/web/jjzjgl/web/grzjgl/yltxycxdjtzxbs/yltxycxdjtzxbs!lr.do?RightID=101254&_menuID=101254&funcID=null"
+                    },
+                    {
+                        "key": "101255",
+                        "text": "代课教师养老保险首次缴费核定",
+                        "url": "/web/jjzjgl/web/dkjszjgl/jfsb/dkjsjfsb!lr.do?RightID=101255&_menuID=101255&funcID=null"
+                    },
+                    {
+                        "key": "101256",
+                        "text": "代课教师养老保险分期付款核定",
+                        "url": "/web/jjzjgl/web/dkjszjgl/fqbjsb/dkjsfqbjsb!lr.do?RightID=101256&_menuID=101256&funcID=null"
+                    },
+                    {
+                        "key": "101258",
+                        "text": "退休非清算人员医疗到账分账",
+                        "url": "/web/jjzjgl/web/grzjgl/txfqsrydz/txfqsrydz.do?RightID=101258&_menuID=101258&funcID=null"
+                    },
+                    {
+                        "key": "101260",
+                        "text": "城乡居保转移人员一次性趸交",
+                        "url": "/web/jjzjgl/web/grzjgl/cxjmzyryycxdj/cxjmzyryycxdj!lr.do?RightID=101260&_menuID=101260&funcID=null"
+                    },
+                    {
+                        "key": "101261",
+                        "text": "城乡居保转移人员一次性趸交复核",
+                        "url": "/web/jjzjgl/web/grzjgl/cxjmzyryycxdjfh/cxjmzyryycxdjfh!fh.do?RightID=101261&_menuID=101261&funcID=null"
+                    },
+                    {
+                        "key": "101262",
+                        "text": "城乡居保转移人员一次性趸交到账处理",
+                        "url": "/web/jjzjgl/web/grzjgl/cxjmzyryycxdjdzcl/cxjmzyryycxdjdzcl!lr.do?RightID=101262&_menuID=101262&funcID=null"
+                    },
+                    {
+                        "key": "101221",
+                        "text": "银行代收对帐处理",
+                        "url": "/web/jjzjgl/web/grzjgl/yhdsdzcl/yhdsdzcl.do?RightID=101221&_menuID=101221&funcID=null"
+                    },
+                    {
+                        "key": "101250",
+                        "text": "个人补收信息查询",
+                        "url": "/web/jjzjgl/web/grzjgl/grbsxxcx/grbsxxcx.do?RightID=101250&_menuID=101250&funcID=null"
+                    },
+                    {
+                        "key": "101247",
+                        "text": "在职退保信息查询",
+                        "url": "/web/sxdy/web/zhcx/ylycx/ylycxdycx.do?RightID=101247&_menuID=101247&funcID=YLDY"
+                    },
+                    {
+                        "key": "101246",
+                        "text": "在职退保业务回退",
+                        "url": "/web/sxdy/web/comm/ywht/ywht.do?RightID=101246&_menuID=101246&funcID=sxdy01,B"
+                    },
+                    {
+                        "key": "101248",
+                        "text": "在职退保单据打印",
+                        "url": "/web/sxdy/web/zhcx/ylycx/ylycxdydjdy.do?RightID=101248&_menuID=101248&funcID=YLDY"
+                    },
+                    {
+                        "key": "101216",
+                        "text": "个人补欠通知单生成",
+                        "url": "/web/jjzjgl/web/grzjgl/grbqtzdsc/grbqtzdsc!lr.do?RightID=101216&_menuID=101216&funcID=null"
+                    },
+                    {
+                        "key": "101217",
+                        "text": "个人到账处理",
+                        "url": "/web/jjzjgl/web/grzjgl/grbqdzcl/grbqdzcl!lr.do?RightID=101217&_menuID=101217&funcID=null"
+                    },
+                    {
+                        "key": "101218",
+                        "text": "个人实收处理",
+                        "url": "/web/jjzjgl/web/grzjgl/grbqsscl/grbqsscl!lr.do?RightID=101218&_menuID=101218&funcID=null"
+                    },
+                    {
+                        "key": "101239",
+                        "text": "个人欠款审批",
+                        "url": "/web/jjzjgl/web/grzjgl/grqksp/grqksp!lr.do?RightID=101239&_menuID=101239&funcID=null"
+                    },
+                    {
+                        "key": "101240",
+                        "text": "个人退收",
+                        "url": "/web/jjzjgl/web/grzjgl/grtscl/grtscl!lr.do?RightID=101240&_menuID=101240&funcID=null"
+                    },
+                    {
+                        "key": "101249",
+                        "text": "个人退收查询及维护",
+                        "url": "/web/jjzjgl/web/grzjgl/grtscxwh/grtscxwh.do?RightID=101249&_menuID=101249&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "1022",
+                "text": "凭证管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "102201",
+                        "text": "凭证维护",
+                        "url": "/web/jjzjgl/web/pzgl/pzwh/pzwh!lr.do?RightID=102201&_menuID=102201&funcID=null"
+                    },
+                    {
+                        "key": "102202",
+                        "text": "凭证汇总",
+                        "url": "/web/jjzjgl/web/pzgl/pzhz/pzhz!lr.do?RightID=102202&_menuID=102202&funcID=null"
+                    },
+                    {
+                        "key": "102203",
+                        "text": "分类信息维护",
+                        "url": "/web/jjzjgl/web/pzgl/flxxwh/flxxwh!lr.do?RightID=102203&_menuID=102203&funcID=null"
+                    },
+                    {
+                        "key": "102204",
+                        "text": "单位分类信息维护",
+                        "url": "/web/jjzjgl/web/pzgl/dwflxxwh/dwflxxwh!lr.do?RightID=102204&_menuID=102204&funcID=null"
+                    },
+                    {
+                        "key": "102206",
+                        "text": "失业单位分类信息维护",
+                        "url": "/web/jjzjgl/web/pzgl/sydwflxxwh/sydwflxxwh!lr.do?RightID=102206&_menuID=102206&funcID=null"
+                    },
+                    {
+                        "key": "102205",
+                        "text": "按凭证批量实缴",
+                        "url": "/web/jjzjgl/web/gtryjf/gtapzplsj/gtapzplsj.do?RightID=102205&_menuID=102205&funcID=null"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "38",
+        "text": "城乡居民医保",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "3810",
+                "text": "缴费业务",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "381010",
+                        "text": "农村居民报盘缴费回执确认",
+                        "url": "/web/bxgx/web/jcpt/cxjmybgtsjcl!jcpt_jfdzqr_lr.do?RightID=381010&_menuID=381010&funcID=null"
+                    },
+                    {
+                        "key": "381020",
+                        "text": "居保数据查询",
+                        "url": "/web/example/web/jbcx/jbxxcx.do?RightID=381020&_menuID=381020&funcID=null"
+                    },
+                    {
+                        "key": "381022",
+                        "text": "城乡居民医疗终止参保",
+                        "url": "/web/bxgx/web/rybg/jmyilzzcb/jmyilzzcb!lr.do?RightID=381022&_menuID=381022&funcID=null"
+                    },
+                    {
+                        "key": "381025",
+                        "text": "城乡居民医疗参保缴费信息表",
+                        "url": "/web/bxgx/web/jcpt/jcptsbjcbjfxxb!lr.do?RightID=381025&_menuID=381025&funcID=null"
+                    },
+                    {
+                        "key": "381028",
+                        "text": "城乡居保待遇管理",
+                        "url": "/web/bxgx/web/jcpt/cxjbdygl.do?RightID=381028&_menuID=381028&funcID=null"
+                    },
+                    {
+                        "key": "381030",
+                        "text": "城乡居民医疗缴费信息维护_登记",
+                        "url": "/web/bxgx/web/jcpt/jmybjfxxwh.do?RightID=381030&_menuID=381030&funcID=null"
+                    },
+                    {
+                        "key": "381031",
+                        "text": "城乡居民医疗缴费信息维护_复核",
+                        "url": "/web/bxgx/web/jcpt/jmybjfxxwhfh.do?RightID=381031&_menuID=381031&funcID=null"
+                    },
+                    {
+                        "key": "381032",
+                        "text": "城乡居民医疗缴费信息维护_查询",
+                        "url": "/web/bxgx/web/jcpt/jmybjfxxwhcx.do?RightID=381032&_menuID=381032&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3812",
+                "text": "中心报盘管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "381201",
+                        "text": "学校报盘导入",
+                        "url": "/web/jjzjgl/web/xxzjgl/xxbpdr/xxbpdr!lr.do?RightID=381201&_menuID=381201&funcID=null"
+                    },
+                    {
+                        "key": "381206",
+                        "text": "失地居民报盘导入",
+                        "url": "/web/jjzjgl/web/xxzjgl/sdjmbp/sdjmbp!dr.do?RightID=381206&_menuID=381206&funcID=null"
+                    },
+                    {
+                        "key": "381202",
+                        "text": "中心报盘回执确认",
+                        "url": "/web/jjzjgl/web/xxzjgl/xxbphzqr/xxbphzqr!lr.do?RightID=381202&_menuID=381202&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3815",
+                "text": "居民门诊统筹金管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "381501",
+                        "text": "居民门诊统筹计入",
+                        "url": "/web/bxgx/web/jcpt/grzhqc.do?RightID=381501&_menuID=381501&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3813",
+                "text": "公共业务",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "381301",
+                        "text": "个人门诊消费密码设置复核",
+                        "url": "/web/bxgx/web/jcpt/rymmgzfh.do?RightID=381301&_menuID=381301&funcID=null"
+                    },
+                    {
+                        "key": "381303",
+                        "text": "家庭参保信息打印",
+                        "url": "/web/bxgx/web/jcpt/jtcbxxdy.do?RightID=381303&_menuID=381303&funcID=null"
+                    },
+                    {
+                        "key": "381302",
+                        "text": "城乡居民医保村社区扎帐统计",
+                        "url": "/web/bxgx/web/jcpt/cxjmybzztj.do?RightID=381302&_menuID=381302&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "3814",
+                "text": "居民医保白名单管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "381401",
+                        "text": "白名单管理_登记",
+                        "url": "/web/ybdy/web/jmybbmdgl/jmybbmdgl!dj.do?RightID=381401&_menuID=381401&funcID=null"
+                    },
+                    {
+                        "key": "381402",
+                        "text": "白名单管理_审核",
+                        "url": "/web/ybdy/web/jmybbmdgl/jmybbmdgl!sh.do?RightID=381402&_menuID=381402&funcID=null"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "45",
+        "text": "省平台异地转移业务",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "4501",
+                "text": "基本养老保险关系转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "450101",
+                        "text": "转入地联系函上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t01011.do?RightID=450101&_menuID=450101&funcID=null"
+                    },
+                    {
+                        "key": "450102",
+                        "text": "转入地信息表下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0102.do?RightID=450102&_menuID=450102&funcID=null"
+                    },
+                    {
+                        "key": "450103",
+                        "text": "转入地办结反馈上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t01031.do?RightID=450103&_menuID=450103&funcID=null"
+                    },
+                    {
+                        "key": "450104",
+                        "text": "转出地联系函下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0101.do?RightID=450104&_menuID=450104&funcID=null"
+                    },
+                    {
+                        "key": "450105",
+                        "text": "转出地信息表上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t01021.do?RightID=450105&_menuID=450105&funcID=null"
+                    },
+                    {
+                        "key": "450106",
+                        "text": "转出地办结反馈下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0103.do?RightID=450106&_menuID=450106&funcID=null"
+                    },
+                    {
+                        "key": "450107",
+                        "text": "完全改造异地转移测试模块",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0503.do?RightID=450107&_menuID=450107&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "4502",
+                "text": "建立临时缴费账户通知管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "450201",
+                        "text": "建立临时缴费账户通知上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t02011.do?RightID=450201&_menuID=450201&funcID=null"
+                    },
+                    {
+                        "key": "450202",
+                        "text": "建立临时缴费账户通知查询",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0202.do?RightID=450202&_menuID=450202&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "4503",
+                "text": "临时建账地发起的临时缴费账户转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "450301",
+                        "text": "临时建账地联系函上传",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450301&_menuID=450301&funcID=null"
+                    },
+                    {
+                        "key": "450302",
+                        "text": "临时建账地联系函回执下载",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450302&_menuID=450302&funcID=null"
+                    },
+                    {
+                        "key": "450303",
+                        "text": "临时建账地信息表上传",
+                        "url": "/web/ydzy/web/lsjzdfqdlsjfzhzy/lsjzdxxbsc.do屏蔽?RightID=450303&_menuID=450303&funcID=null"
+                    },
+                    {
+                        "key": "450304",
+                        "text": "转入地联系函下载",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450304&_menuID=450304&funcID=null"
+                    },
+                    {
+                        "key": "450305",
+                        "text": "转入地联系函回执上传",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450305&_menuID=450305&funcID=null"
+                    },
+                    {
+                        "key": "450306",
+                        "text": "转入地信息表下载",
+                        "url": "/web/ydzy/web/lsjzdfqdlsjfzhzy/lsjzdxxbxz.do屏蔽?RightID=450306&_menuID=450306&funcID=null"
+                    },
+                    {
+                        "key": "450307",
+                        "text": "转入地办结反馈上传",
+                        "url": "/web/ydzy/web/lsjzdfqdlsjfzhzy/lsjzdbjfksc.do屏蔽?RightID=450307&_menuID=450307&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "4504",
+                "text": "转入地发起的临时缴费账户转移",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "450401",
+                        "text": "转入地联系函上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t05011.do?RightID=450401&_menuID=450401&funcID=null"
+                    },
+                    {
+                        "key": "450402",
+                        "text": "转入地信息表下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0502.do?RightID=450402&_menuID=450402&funcID=null"
+                    },
+                    {
+                        "key": "450403",
+                        "text": "转入地办结反馈上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t05031.do?RightID=450403&_menuID=450403&funcID=null"
+                    },
+                    {
+                        "key": "450404",
+                        "text": "转出地联系函下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0501.do?RightID=450404&_menuID=450404&funcID=null"
+                    },
+                    {
+                        "key": "450405",
+                        "text": "转出地信息表上传",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!t05021.do?RightID=450405&_menuID=450405&funcID=null"
+                    },
+                    {
+                        "key": "450406",
+                        "text": "转出地办结反馈下载",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c03011t0503.do?RightID=450406&_menuID=450406&funcID=null"
+                    }
+                ]
+            },
+            {
+                "key": "4505",
+                "text": "综合查询",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "450501",
+                        "text": "业务流程查询",
+                        "url": "/web/bxgx/web/lewydzy/lewydzypub!c04012.do?RightID=450501&_menuID=450501&funcID=null"
+                    },
+                    {
+                        "key": "450502",
+                        "text": "办结反馈查询",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450502&_menuID=450502&funcID=null"
+                    },
+                    {
+                        "key": "450503",
+                        "text": "拒绝业务查询",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450503&_menuID=450503&funcID=null"
+                    },
+                    {
+                        "key": "450504",
+                        "text": "确认撤销业务查询",
+                        "url": "/web/ydzy/web/yybxgxzy/zydlxhsc.do屏蔽?RightID=450504&_menuID=450504&funcID=null"
+                    },
+                    {
+                        "key": "450505",
+                        "text": "建立临时缴费账户通知书查询",
+                        "url": "/web/ydzy/web/zhcx/jllsjfzhtzscx.do屏蔽?RightID=450505&_menuID=450505&funcID=null"
+                    }
+                ]
+            }
+        ]
+    }
+]

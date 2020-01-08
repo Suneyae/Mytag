@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+
+	<!-- context:exclude-filter type="annotation" expression="org.springframework.stereotype.Repository" 
+		子节点指定排除哪些注解 context:include-filter type="annotation" 需要结合context:component-scan 
+		标签的 use-default-filters="false"来使用 context:exclude-filter type="assignable" 
+		这个expression指的是自己写的类，意思排除哪些类 expression="imooc_spring.test.anotation.TestObj" -->
+	<context:component-scan base-package="com"></context:component-scan>
+
+
+
+	<!-- 引入db.properties 文件-->
+	<context:property-placeholder location="classpath:db.properties" />
+
+	<!-- 配置C3P0数据源 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="jdbcUrl" value="${jdbc.url}"></property>
+		<property name="driverClass" value="${jdbc.driverName}"></property>
+		<property name="user" value="${jdbc.username}"></property>
+		<property name="password" value="${jdbc.pwd}"></property>
+	</bean>
+
+	<!-- 配置 Spring 的 org.springframework.jdbc.core.JdbcTemplate -->
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+</beans>

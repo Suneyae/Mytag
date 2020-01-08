@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	version="2.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description>test</description>
+	<tlib-version>2.0</tlib-version>
+	<short-name>cur</short-name>
+	<uri>/cur</uri>
+
+	<tag>
+		<name>mm</name>
+		<tag-class>huarong.MMTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<description>自定义超链接的文字描述内容</description>
+			<name>message</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<description>是否需要按钮,btnName属性不为空那么就提供button按钮，否则不提供,如果不需要按钮，那么这个属性就设置为一个空字符串</description>
+			<name>btnName</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<description>是否加上onClick事件,true或者false</description>
+			<name>wClick</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<description>测试用，是否有标题，true或者false</description>
+			<name>hasTitle</name>
+			<required>false</required>
+		</attribute>
+	</tag>
+</taglib>  

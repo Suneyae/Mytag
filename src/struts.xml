@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<constant name="struts.custom.i18n.resources" value="message" />
+
+	<constant name="struts.i18n.encoding" value="gbk"></constant>
+
+	<!-- 上传过程中临时文件存放目录，这个开关可能会影响文件上传，具体影响是：上传页面不报错，只是直接返回到原来页面，具体原因还不知道 -->
+	<!-- <constant name="struts.multipart.saveDir" value="c:\"></constant> -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 开启动态方法调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+
+
+
+	<package name="default" extends="struts-default">
+		<action name="test" class="com.sxt.test.TestAction">
+			<!-- 跳转到ftl，result需要指定type=freemarker -->
+			<result name="success" type="freemarker">test_success.ftl</result>
+		</action>
+	</package>
+	<!-- http://www.cnblogs.com/nayitian/p/3485167.html name 包名，作为其它包应用本包的标记 
+		extends 可选属性，设置本包继承其它包 namespace 可选属性，设置包的命名空间 abstact 可选属性，设置为抽象包 -->
+	<package name="struts2" namespace="/" extends="struts-default">
+
+
+		<!-- 所有拦截器都在这儿配置 -->
+		<interceptors>
+			
+			<!-- 设置超时校验 -->
+			<interceptor name="timeoutInterceptor"
+				class="com.log.myInterceptors.WylTimeOutInterceptor"></interceptor>
+			
+			<interceptor name="loginInterceptor" class="com.log.myInterceptors.WylInterceptor"></interceptor>
+			
+			<interceptor-stack name="myLogin">
+				<!-- 我自己用来检查非登录页面是否有权限访问的拦截器 -->
+				
+				<interceptor-ref name="timeoutInterceptor"></interceptor-ref>
+				<interceptor-ref name="loginInterceptor"></interceptor-ref>
+				<!-- 引用struts2的默认拦截器 -->
+				<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<!-- 设定默认的拦截器，出了登录页面不要加上这个拦截器，所有的都要加 -->
+		<default-interceptor-ref name="myLogin"></default-interceptor-ref>
+		<!-- 全局的results好像不能够放在拦截器之前，否则xml提示错误 -->
+		<global-results>
+			<result name="error">/error.jsp</result>
+		</global-results>
+
+
+		<action name="upload" class="com.broadengate.struts.UploadAction">
+			<result name="success">/uploadResult.jsp</result>
+			<result name="input">/index.jsp</result>
+			<!-- 定义文件上传拦截器 -->
+			<interceptor-ref name="fileUpload">
+				<!-- 设置文件上传大小 -->
+				<param name="maximumSize">409600</param>
+				<!-- 设置文件上传类型 <param name="allowedTypes"> application/vnd.ms-powerpoint 
+					</param> -->
+			</interceptor-ref>
+			<!-- 自定义了拦截器后必手动定义默认的拦截器，否则默认的拦截器不会被执行 -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="doAjax" class="com.wyl.ajax.MyAjax" method="MyAjax">
+			<!--<result type="">dd</result> -->
+		</action>
+
+
+		<!--<action name="download" class="com.unmi.action.DownloadAction"> <result 
+			name="success" type="stream">type 为 stream 应用 StreamResult 处理 <param name="contentType">application/octet-stream</param>默认为 
+			text/plain 默认就是 inputStream，它将会指示 StreamResult 通过 inputName 属性值的 getter 方法， 
+			比如这里就是 getInputStream() 来获取下载文件的内容，意味着你的 Action 要有这个方法 <param name="inputName">inputStream</param> 
+			默认为 inline(在线打开)，设置为 attachment 将会告诉浏览器下载该文件，filename 指定下载文 件保有存时的文件名，若未指定将会是以浏览的页面名作为文件名，如以 
+			download.action 作为文件名， 这里使用的是动态文件名，${fileName}, 它将通过 Action 的 getFileName() 
+			获得文件名 <param name="contentDisposition">attachment;filename="${fileName}"</param> 
+			<param name="bufferSize">4096</param> 输出时缓冲区的大小 </result> </action> -->
+		<action name="wdAjax" class="com.wyl.ajax.MyAjax" method="myAjax">
+			<result name="success" type="stream">
+				<!--<param name="allowCaching">false</param> -->
+				<param name="contentType">text/html</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+
+
+
+		<action name="checkAjax" class="com.wyl.ajax.MyAjax2">
+			<result name="success" type="stream">
+				<param name="contentType">text/html</param>
+				<param name="inputName">tip</param>
+			</result>
+		</action>
+
+
+		<action name="toLogin" class="com.log.LoginAction">
+			<!-- 添加拦截器,登录页面不需要加上验证登陆的拦截器，否则永远也登不上 ，但是最好加上struts2的默认的拦截器 -->
+			<!-- <interceptor-ref name="loginInterceptor"></interceptor-ref> -->
+			<result name="success" type="dispatcher">/success.jsp</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+
+		<action name="toLogin2" class="com.log.LoginAction2">
+			<result name="success" type="dispatcher">/logSuccess.jsp</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+
+		<action name="findBeauty" class="com.log.FindBeauty">
+			<!-- 添加拦截器 -->
+			<interceptor-ref name="myLogin"></interceptor-ref>
+			<result name="success">/beauty.jsp</result>
+		</action>
+		<!-- 官方的例子,通过ajax来获取text格式的字符串 -->
+		<action name="text-result" class="actions.TextResult">
+			<result type="stream">
+				<param name="contentType">text/html</param>
+				<!-- 在Action中声明一个成员变量inputStream,并且有get方法，用于接收execute()方法执行成功后成员变量inputStream的值，
+				在这里配置的<param name='inputName'>标签内的inputStream就能够接收到然后用于展示 -->
+				<param name="inputName">inputStream</param>
+			</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+		<!-- 模态窗口传参，actions.motai.OpenAction -->
+		<action name="open" class="actions.motai.OpenAction">
+			<result name="success" type="dispatcher">/motai.jsp</result>
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+		<action name="totest" class="actions.motai.OpenAction" method="totest">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+		</action>
+
+
+		<action name="getUser" class="com.log.control.GetUserAction" >
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success">/beauty.jsp</result>
+		</action>
+		
+		<action name="getUser2" class="com.log.control.GetUserAction" method="getJsonData">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success">/beauty.jsp</result>
+		</action>
+		
+		<!-- 者直接在页面展示图片  -->
+		<action name="to_get_img_inputstream" class="com.wyl.ajax.MyAjaxImg">
+			<!-- <result name="success" type="stream">/to_img_success.jsp</result> -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success" type="stream">
+			  	<param name="contentType">image/jpeg</param>
+			  	<param name="inputName">imageStream</param>
+			  	<!-- <param name="bufferSize">1024</param> -->
+		  	</result>
+		</action>
+		
+		<!--20161007 下午添加 下载图片，实际上和上面的一个action  to_get_img_inputstream 是一致的 ，
+			 唯一的差别是上面的action里没有指定contentDispositon参数，所以上面的action不是
+			 以附件形式下载，而是以流的形式直接读取到页面上-->
+		<action name="to_get_img_inputstream2" class="com.wyl.ajax.MyAjaxImg">
+			<!-- <result name="success" type="stream">/to_img_success.jsp</result> -->
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<result name="success" type="stream">
+			  	<param name="contentType">image/jpeg</param>
+			  	<param name="inputName">imageStream</param>
+			  	<!-- 指定了contentDisposition这个参数的含义 就是指定附件格式为attachment，且文件名为weiyongle.jpg-->
+			  	<param name="contentDisposition">attachment;filename="weiyongle.jpg"</param>
+			  	<!-- <param name="bufferSize">1024</param> -->
+		  	</result>
+		</action>
+		
+		<!-- 
+			20161007 晚上添加 用来测试文件的上传下载，这个是来自官方的demo,
+		 -->
+		<action name="doUpload" class="com.test.strutsfile.UploadAction">
+		 <!-- 这两个是struts-default.xml中已经定义好了的拦截器 -->
+		    <interceptor-ref name="fileUpload"/>
+		    <interceptor-ref name="basicStack"/>
+		    <result name="success">good_result.jsp</result>
+		</action>
+		
+	</package>
+	
+	<!-- 
+		<package name="struts3" namespace="/" extends="json-default">
+	 -->
+	 <!-- 
+	 	<package name="struts3" namespace="/" extends="json-default">
+	  -->
+	  <package name="struts4" namespace="/" extends="struts-default">
+	 	<!-- 上传 -->
+		<action name="myupload" class="com.log.control.MyUpload">
+			 <result name="success">/uploadSuccess.jsp</result>  
+             <interceptor-ref name="fileUpload">
+  				<param name="allowedTypes">
+     				image/png,image/gif,image/jpeg
+  				</param>
+			</interceptor-ref>
+             <interceptor-ref name="defaultStack"></interceptor-ref>
+             <!-- 一定要有 name=input的result -->
+			<result name="input">/fileupload.jsp</result>
+		</action>
+	</package>
+	
+	<constant name="struts.multipart.maxSize" value="2000000000"></constant>
+	
+<package name="manager" namespace="/" extends="struts-default">
+	<!-- 可以用了 -->
+	<action name="upload2" class="com.log.control.FileUploadAction">
+		<result name="success">/success.jsp</result>
+		<result name="input">/fileupload.jsp</result>
+
+		<!-- <interceptor-ref name="fileUpload"> <param name="allowedTypes">image/bmp,image/x-png,image/gif,image/jpg,image/jpeg</param> 
+			<param name="maximumSize">81101</param> </interceptor-ref> <interceptor-ref 
+			name="defaultStack"></interceptor-ref> -->
+	</action>
+
+</package>
+	
+</struts>

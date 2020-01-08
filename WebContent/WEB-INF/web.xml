@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+
+
+	<!-- 配置 Struts2 的 Filter -->
+	<welcome-file-list>
+
+		<!-- <welcome-file>index.jsp</welcome-file> 欢迎页改为MyTag.jsp -->
+		<welcome-file>MyTag.jsp</welcome-file>
+	</welcome-file-list>
+
+	<listener>
+		<listener-class>com.log.service.WylSessionAttrbuteLister</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>com.log.service.WylSessionListener</listener-class>
+	</listener>
+	
+	<listener>
+		<listener-class>com.log.service.WylServletRequestListener</listener-class>
+	</listener>
+	
+	<listener>
+		<listener-class>com.log.service.WylContextListener</listener-class>
+	</listener>
+	
+	<!-- ServletRequestListener -->
+	<!-- <listener>
+		<listener-class>com.log.service.WylServletRequestListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>com.log.service.WylContextListener</listener-class>
+	</listener> -->
+	
+	<servlet>
+		<servlet-name>freemarker</servlet-name>
+		<servlet-class>freemarker.ext.servlet.FreemarkerServlet</servlet-class>
+		<!--下面的配置freemarke的ftl文件的位置 -->
+		<init-param>
+			<param-name>TemplatePath</param-name>
+			<param-value>/</param-value>
+		</init-param>
+		<!-- 是否和服务器（tommcat)一起启动。0为不。1为是 -->
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>freemarker</servlet-name>
+		<url-pattern>*.ftl</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<!-- define a JspSupportServlet Object -->
+		<servlet-name>JspSupportServlet</servlet-name>
+		<servlet-class>org.apache.struts2.views.JspSupportServlet</servlet-class>
+		<!-- setting JspSupportServlet auto start -->
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+
+	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!-- 我的自定义过滤器 -->
+
+
+	<!-- <filter>
+		<filter-name>wylFiler3</filter-name>
+		<filter-class>com.test.javaAPI.servlet.MyFilter3</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>wylFiler3</filter-name>
+		<url-pattern>*.xxx</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>wylFiler4</filter-name>
+		<filter-class>com.test.javaAPI.servlet.MyFilterXX</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>wylFiler4</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+	<filter>
+		<filter-name>wylFiler1</filter-name>
+		<filter-class>com.test.javaAPI.servlet.MyFilter1</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>wylFiler1</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>wylFiler2</filter-name>
+		<filter-class>com.test.javaAPI.servlet.MyFilter2</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>wylFiler2</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+ -->
+
+	<!-- 测试servlet用的，20161004 -->
+	<servlet>
+		<servlet-name>testMy</servlet-name>
+		<servlet-class>com.test.javaAPI.servlet.MyServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testMy</servlet-name>
+		<url-pattern>*.xxx</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- 添加微信公众号 -->
+	<servlet>
+		<servlet-name>wechat</servlet-name>
+		<servlet-class>com.test.javaAPI.wechat.WechatServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>wechat</servlet-name>
+		<url-pattern>/wechat.do</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- 测试servlet用的，20161004 -->
+	<servlet>
+		<servlet-name>testMy2</servlet-name>
+		<servlet-class>com.test.javaAPI.servlet.MyServlet2</servlet-class>
+		<!-- 设置 web容器已启动就实例化这个servlet，servlet一旦实例化就会调用初始化方法init(),而且生命周期里只会实例化一次 -->
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>testMy2</servlet-name>
+		<url-pattern>*.yyy</url-pattern>
+	</servlet-mapping>
+	<!-- 可以通过通过监听器来获取到，当然了，需要实现ServletContextListener接口 ，
+	见：com.log.service.WylContextListener-->
+	<context-param>
+		<param-name>ctxName</param-name>
+		<param-value>我是ctx的值</param-value>
+	</context-param>
+
+</web-app>

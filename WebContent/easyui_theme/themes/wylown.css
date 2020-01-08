@@ -1,0 +1,35 @@
+.video-overlay {
+  /*
+  	display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  vertical-align: middle;
+  */
+  opacity:0.5;
+}
+
+
+.touming{
+  /*
+  	display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border-width: 1px;
+  border-style: solid;
+  overflow: hidden;
+  vertical-align: middle;
+  */
+  opacity:0.2;
+}
+
+.notdisplay{
+	display: none;
+}
+.dodisplay{
+	display: block;
+}

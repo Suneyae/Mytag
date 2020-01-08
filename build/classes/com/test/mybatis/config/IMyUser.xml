@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2009-2016 the original author or authors. Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- MyBatis接口式编程 -->
+<!-- 这里的namespace一定要是接口的全类名，这样就能够保证该mapper的唯一性 -->
+<mapper namespace="com.test.mybatis.dao.interf.IMyUserDao">
+	<!-- select标签里的id属性值 getUser 对应着 上面namespace里的方法，
+		实际上就是接口里定义的方法 -->
+	<select id="getUser"  resultType="com.test.mybatis.entity.MyUser" parameterType="int">
+		select * from MyUser where id = #{id}
+	</select>
+	<!-- select标签里的id属性值 getUserbyUser 对应着 上面namespace里的方法，
+		实际上就是接口里定义的方法 -->
+	<select id="getUserbyUser"  parameterType="com.test.mybatis.entity.MyUser" resultType="com.test.mybatis.entity.MyUser" >
+		select * from MyUser 
+		where 1=1 
+		<!-- if 标签里的 test的属性值 username实际上是指的是
+		 parameterType的属性值  com.test.mybatis.entity.MyUser 
+		 这个类里的一个成员属性，用于getter和setter方法，
+		 不是之前理解的对应于数据库里的字段，还有username !='' 
+		   一定要写上，如果不写的话那么这个String类型的username成员变量
+		 就会被MyBatis框架默认为"",从而可能会影响这里配置的slq的逻辑，
+		 从而查询出来的结果可能会与我们自己设想中的不一样 -->
+		<if test="username != null and username !='' ">
+    		AND username = #{username}
+  		</if>
+  		<if test="administrator != null and username !='' ">
+    		AND administrator = #{administrator}
+  		</if>
+	</select>
+	<!-- choose, when, otherwise 等标签的使用 -->
+	<select id="getUserbyUser2"  parameterType="com.test.mybatis.entity.MyUser" resultType="com.test.mybatis.entity.MyUser" >
+		select * from MyUser 
+		where 1=1 
+		<choose>
+			<when test="username!=null and username!='' ">
+				and username = #{username}
+			</when>
+			<when test="administrator!=null and administrator!='' ">
+				and administrator = #{administrator}
+			</when>
+			<otherwise>
+				and rownum = 1
+			</otherwise>
+		</choose>
+	</select>
+	
+	<delete id="deleteUser" parameterType="String">
+		delete from MyUser where id = #{id}
+	</delete>
+	
+	<!-- foreach元素的属性主要有 item，index，collection，open，separator，close。 -->
+	<!-- 参考：http://www.cnblogs.com/fangyu19900812/p/6046209.html
+		mybatis官方：http://www.mybatis.org/mybatis-3/zh/dynamic-sql.html
+		item表示集合中每一个元素进行迭代时的别名，
+	    index指 定一个名字，用于表示在迭代过程中，每次迭代到的位置，
+	    open表示该语句以什么开始，
+	    separator表示在每次进行迭代之间以什么符号作为分隔 符，
+	    close表示以什么结束。
+	 -->
+	<delete id="delBatch" parameterType="java.util.List">
+		delete from myuser where id in 
+		<foreach collection="list" item="theitem" open="(" separator="," close=")">
+			#{theitem}
+		</foreach>
+	</delete>
+	
+	
+	<!-- <cache eviction="ss">
+		<property name="" value=""/>
+	</cache> -->
+	
+</mapper>

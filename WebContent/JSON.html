@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Promise animation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+		.ball{
+			width: 40px;
+			height: 40px;
+			border-radius: 20px;
+		}
+
+		.ball1{
+			background: red;
+		}
+		.ball2{
+			background: yellow;
+		}
+		.ball3{
+			background: orange;
+		}
+		.ball4{
+			background: orange;
+		}
+		.ball5{
+			background: yellow;
+		}
+		.ball6{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="ball ball1" style="margin-left: 100px;"></div>
+	<div class="ball ball2" style="margin-left: 120px;"></div>
+	<div class="ball ball3" style="margin-left: 140px;"></div>
+	<div class="ball ball4" style="margin-left: 100px;"></div>
+	<div class="ball ball5" style="margin-left: 120px;"></div>
+	<div class="ball ball6" style="margin-left: 140px;"></div>
+	<br>
+	<input id="id_btn" value="序列化json" />
+	<script type="text/javascript">
+		var ball1 = document.querySelector('.ball1');
+		var ball2 = document.querySelector('.ball2');
+		var ball3 = document.querySelector('.ball3');
+		var ball4 = document.querySelector('.ball4');
+		var ball5 = document.querySelector('.ball5');
+		var ball6 = document.querySelector('.ball6');
+
+		// alert(ball1);
+		
+		function recyle(obj) {
+			// 用来保存所有的属性名称和值
+			var props = "";
+			// 开始遍历
+			for ( var p in obj) { // 方法
+				if (typeof (obj[p]) == "function") {
+					if(p=="querySelector"){
+						console.log('--------------asfawa');
+					}
+					props += "function:"+p+"\n";
+				} else { // p 为属性名称，obj[p]为对应属性的值
+					props += p + " = " + obj[p] + " \n ";
+				}
+			} // 最后显示所有的属性
+			console.log(props+"\n");
+			// document.getElementById('id_txt').value = props;
+		}
+
+
+		function animate(ball,distance,callback){
+			var margin_left =parseInt(ball.style.marginLeft,10);
+			setTimeout(function(){
+				if(margin_left===distance){
+					callback&&callback();
+				}else{
+					if(margin_left<distance){
+						margin_left++;
+					}else{
+						margin_left--;
+					}
+					ball.style.marginLeft = margin_left+'px';
+					animate(ball,distance,callback);
+				}
+			},12);
+			
+			
+		}
+		function re(){
+			animate(ball1,170,function(){
+				animate(ball2,170,function(){
+					animate(ball3,170,function(){
+						animate(ball3,90,function(){
+							animate(ball2,90,function(){
+								animate(ball1,90,function(){
+									re();
+								});
+							});
+						});
+					});
+				});
+			});
+		}
+
+		function re2(){
+			animate(ball4,170,function(){
+				animate(ball5,170,function(){
+					animate(ball6,170,function(){
+						animate(ball6,90,function(){
+							animate(ball5,90,function(){
+								animate(ball4,90,function(){
+									re2();
+								});
+							});
+						});
+					});
+				});
+			});
+		}
+
+		re();
+		re2();
+		function myconvert(key,value){
+			if(typeof value==='string'){
+				return value.toUpperCase();
+			}
+			return value;
+		}
+		var xiaoming = {
+			    name: '小明',
+			    age: 14,
+			    gender: true,
+			    height: 1.65,
+			    grade: null,
+			    'middle-school': '\"W3C\" Middle School',
+			    skills: ['JavaScript', 'Java', 'Python', 'Lisp']
+		};
+
+		var rtn = JSON.stringify(xiaoming);
+		console.log(rtn+',typeof rtn:'+typeof rtn);
+		var rtn2 = JSON.stringify(xiaoming,['gender','skills'],' ');
+		console.log(rtn2+',typeof rtn2:'+typeof rtn2);
+		//第二个参数传入一个function
+		var rtn3 = JSON.stringify(xiaoming,myconvert,' ');
+		console.log(rtn3+',typeof rtn3:'+typeof rtn3);
+		// animate(ball1,600,animate);
+
+	</script>
+</body>
+</html>

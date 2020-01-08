@@ -1,0 +1,23 @@
+[
+    {
+        "text": "系统管理",
+        "iconCls":"icon-save",
+        "children": [
+            {
+                "text": "知识库",
+                "children": [
+                    {
+                        "text": "知识库录入及维护",
+                        "checked": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "系统管理2"
+    },
+    {
+        "text": "系统管理3"
+    }
+]

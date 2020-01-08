@@ -1,0 +1,21 @@
+[
+    {
+        "key": "30",
+        "text": "公共业务",
+        "isFolder": true,
+        "children": [
+            {
+                "key": "3015",
+                "text": "人员参保关系管理",
+                "isFolder": true,
+                "children": [
+                    {
+                        "key": "301501",
+                        "text": "增减员",
+                        "url": "/web/bxgx/web/rybg/zjy/zjy!lr.do?RightID=301501&_menuID=301501&funcID=null"
+                    }
+                ]
+            }
+        ]
+    }
+]

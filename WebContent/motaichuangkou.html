@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script>
+	//全局变量
+	var a = "wyl";
+	window.b = a;
+	//封装 模态窗口，
+	function motai(html, parameter, size) {
+		//document.open(html,parameter,size);
+		var d = 123;//主要是调试改网页的时候在此处设置断点用
+		//此处做能力检测，进行兼容
+		if (window.showModalDialog) {
+			//IE是支持的是  window.showModalDialog
+			console.log('showModalDialog 方式');
+			window.showModalDialog(html, parameter, size);
+		} else {
+			//Chrome，Edge等都是支持 document.open();的方式
+			console.log('open 方式');
+			document.open(html, parameter, size);
+		}
+	}
+	
+	function openMotai(){
+		motai("woshimotaichuangkou.html", window.a,
+		"dialogWidth:400px;dialogHeight:500px;");
+	}
+	
+	function openMotai2(){
+		var thePara = encodeURIComponent(encodeURIComponent(document.getElementById('id_text').value));
+		
+		// 设置弹出窗口的标题栏，需要使用encodeURIComponent进行编码设置，否则弹窗口会乱码
+		//var title = encodeURIComponent("增员信息页面"+g_blankDouble) ;
+		thePara = 
+		motai("open?thePara="+thePara+"&_t="+new Date().getTime(), window.a,
+		"dialogWidth:400px;dialogHeight:500px;");
+	}
+	
+	function openMotai3(){
+		var thePara = document.getElementById('id_text').value;
+		
+		// 设置弹出窗口的标题栏，需要使用encodeURIComponent进行编码设置，否则弹窗口会乱码
+		//var title = encodeURIComponent("增员信息页面"+g_blankDouble) ;
+		thePara = 
+		motai("open?thePara="+thePara+"&_t="+new Date().getTime(), window.a,
+		"dialogWidth:400px;dialogHeight:500px;")
+	}
+	
+	window.onload = function() {
+		//var btn1 = document.getElementById('btn1');
+		//btn1.onclick = motai("woshimotaichuangkou.html", window.a,
+		//		"dialogWidth:400px;dialogHeight:500px;");
+		
+	}
+</script>
+
+</head>
+
+<body>
+<input type="button" value="点我调用模态窗口,打开静态页面" id="btn1" onclick="openMotai()" />
+<br/>
+用于给模态窗口传参的输入框：
+<input type="input" value="点我调用模态窗口,打开静态页面" id="id_text" />
+<br/>
+<input type="button" value="点我调用模态窗口，动态传参，用encodeURIComponent " id="btn1" onclick="openMotai2()" />
+<br/>
+<br/>
+<input type="button" value="点我调用模态窗口，动态传参，不用encodeURIComponent" id="btn1" onclick="openMotai3()" />
+<br/>
+<br/>
+
+<div id="bigphoto">
+<a href="http://s.dgtle.com/forum/201305/24/194538qqwuuiidq5eevwab.jpg" target="_blank" title="← →可切换图片" sl-processed="1">
+<img src="http://s.dgtle.com/forum/201305/24/194527mvfpmf1qv5pgbyny.jpg" style="display: inline;" alt="龙妈的气场"></a>
+</div>
+<div id="bigphoto2">
+<img src="http://s.dgtle.com/forum/201305/24/194538qqwuuiidq5eevwab.jpg?szhdl=imageview/2/w/960" style="display: inline;" alt="龙妈的气场">
+</div>
+<div id="loadMore" class="np-load-more" style="display: block;">
+
+                    <span style="display: block;">加载更多</span>
+                    <em style="display: none;" class="np-load-more-loading">没有更多了</em>
+
+</div>
+
+
+</body>
+</html>

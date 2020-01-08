@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2009-2016 the original author or authors. Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="useGeneratedKeys" value="false" />
+		<setting name="useColumnLabel" value="true" />
+		<!-- 自动映射,参加官方教程：
+			http://www.mybatis.org/mybatis-3/zh/sqlmap-xml.html#Auto-mapping
+			开启驼峰命名法
+		 -->
+		<!-- <setting name="mapUnderscoreToCamelCase" value="true"/> -->
+	</settings>
+
+	<!-- <typeAliases> <typeAlias alias="UserAlias" type="org.apache.ibatis.submitted.complex_property.User"/> 
+		</typeAliases> -->
+		
+	<environments default="development">
+		<environment id="development">
+			<!-- 
+				JDBC – 这个配置就是直接使用了 JDBC 的提交和回滚设置，
+				它依赖于从数据源得到的连接来管理事务作用域,
+				参加：http://www.mybatis.org/mybatis-3/zh/configuration.html#environments
+				
+				还有一种是 MANAGED ,这个配置几乎没做什么。它从来不提交或回滚一个连接，而是让
+				容器来管理事务的整个生命周期（比如 JEE 应用服务器的上下文）。 默认情况下它会
+				关闭连接，然而一些容器并不希望这样，因此需要将 closeConnection 属性设置
+				为 false 来阻止它默认的关闭行为。
+			 -->
+			<transactionManager type="JDBC">
+				<property name="" value="" />
+			</transactionManager>
+			<!-- 
+				dataSource 元素使用标准的 JDBC 数据源接口来配置 JDBC 连接对象的资源。
+				有三种内建的数据源类型（也就是 type=”[UNPOOLED|POOLED|JNDI]”）：
+				UNPOOLED 类型的数据源仅仅需要配置以下 5 种属性：
+				
+				driver – 这是 JDBC 驱动的 Java 类的完全限定名（并不是JDBC驱动中可能包含的数据源类）。
+				url – 这是数据库的 JDBC URL 地址。
+				username – 登录数据库的用户名。
+				password – 登录数据库的密码。
+				defaultTransactionIsolationLevel – 默认的连接事务隔离级别。
+				具体的还要参见官网教程：
+				http://www.mybatis.org/mybatis-3/zh/configuration.html#environments
+			 -->
+			<dataSource type="UNPOOLED">
+				<!-- Oracle数据库配置 -->
+				<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl2" />
+				<property name="username" value="hr" />
+				<property name="password" value="hr" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<!-- 配置的实体类 20161106添加 -->
+	<mappers>
+		<!-- <mapper resource="org/apache/ibatis/submitted/complex_property/User.xml" /> -->
+		<!-- 这个路径是从src下开始的，即以src作为根目录的，
+			这点和Resources.getResourcesAsStream("xx")里的xx一样，都是指向的具体文件的路径
+			，都是以src为根目录 -->
+		<mapper resource="com/test/mybatis/config/MyUser.xml" />
+		<!-- 接口式编程 -->
+		<!-- <mapper class="com.test.mybatis.dao.interf.IMyUserDao"/> -->
+		<mapper resource="com/test/mybatis/config/IMyUser.xml" />
+	</mappers>
+	
+</configuration>

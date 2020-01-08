@@ -1,0 +1,15 @@
+<html lang="zh">
+<!-- 一定要指定UTF-8,否则title可能会出现乱码 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>框架示例</title>
+</head>
+<frameset rows="13%,*">
+ 	<frame src="login.jsp"  borderColor="red" framespacing="1"/>
+   <frameset cols="20%,*" borderColor="red" framespacing="0.1">
+   		<!-- 引入目录树，通过easyui-tree实现 -->
+        <frame src="myeasyui.jsp" noresize="noresize"/>
+        <frame src="woshimotaichuangkou.html" />    
+   </frameset>
+  
+</frameset>
+</html>
